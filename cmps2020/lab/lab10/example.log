@@ -1,0 +1,25 @@
+log file "example.log" opened
+  Start -- frame(1) int Sort1(int*, int)
+  param: int*  address:0x7ffe8ec045f0 points_to_value:10
+  param: int address:0x7ffe8ec04514 value:20
+  End frame(1)--int Sort1(int*, int) at line 25
+Return Value:380
+
+  Start -- frame(1) int Sort2(int*, int)
+  param: int*  address:0x7ffe8ec04640 points_to_value:10
+  param: int address:0x7ffe8ec04514 value:20
+  End frame(1)--int Sort2(int*, int) at line 49
+Return Value:190
+
+  Start -- frame(1) int Sort3(int*, int)
+  param: int*  address:0x7ffe8ec04690 points_to_value:10
+  param: int address:0x7ffe8ec04504 value:20
+  End frame(1)--int Sort3(int*, int) at line 78
+Return Value:187
+
+  Start -- frame(1) int Sort4(int*, int)
+  param: int*  address:0x7ffe8ec046e0 points_to_value:10
+  param: int address:0x7ffe8ec04504 value:20
+  End frame(1)--int Sort4(int*, int) at line 118
+Return Value:190
+

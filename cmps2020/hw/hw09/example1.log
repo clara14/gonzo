@@ -1,0 +1,203 @@
+log file "example1.log" opened
+  Start -- frame(1) Queue<T>::Queue() [with T = int]
+  End -- frame(1) Queue<T>::Queue() [with T = int]
+
+
+  Start -- frame(1) bool Queue<T>::Full() [with T = int]
+  End frame(1)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  Start -- frame(1) bool Queue<T>::Enqueue(T) [with T = int]
+  param: int address:0x7ffd08af4584 value:66
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Enqueue(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Enqueue(T) [with T = int]
+  param: int address:0x7ffd08af4584 value:55
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Enqueue(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Enqueue(T) [with T = int]
+  param: int address:0x7ffd08af4584 value:44
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Enqueue(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Enqueue(T) [with T = int]
+  param: int address:0x7ffd08af4584 value:33
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Enqueue(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Enqueue(T) [with T = int]
+  param: int address:0x7ffd08af4584 value:22
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Enqueue(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Enqueue(T) [with T = int]
+  param: int address:0x7ffd08af4584 value:11
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Enqueue(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Dequeue() [with T = int]
+    Start -- frame(2) bool Queue<T>::Empty() [with T = int]
+    End frame(2)--bool Queue<T>::Empty() [with T = int] at line 46
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Dequeue() [with T = int] at line 86
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Dequeue() [with T = int]
+    Start -- frame(2) bool Queue<T>::Empty() [with T = int]
+    End frame(2)--bool Queue<T>::Empty() [with T = int] at line 46
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Dequeue() [with T = int] at line 86
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Dequeue() [with T = int]
+    Start -- frame(2) bool Queue<T>::Empty() [with T = int]
+    End frame(2)--bool Queue<T>::Empty() [with T = int] at line 46
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Dequeue() [with T = int] at line 86
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Dequeue() [with T = int]
+    Start -- frame(2) bool Queue<T>::Empty() [with T = int]
+    End frame(2)--bool Queue<T>::Empty() [with T = int] at line 46
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Dequeue() [with T = int] at line 86
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Dequeue() [with T = int]
+    Start -- frame(2) bool Queue<T>::Empty() [with T = int]
+    End frame(2)--bool Queue<T>::Empty() [with T = int] at line 46
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Dequeue() [with T = int] at line 86
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Enqueue(T) [with T = int]
+  param: int address:0x7ffd08af4584 value:67
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Enqueue(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Enqueue(T) [with T = int]
+  param: int address:0x7ffd08af4584 value:68
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Enqueue(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Enqueue(T) [with T = int]
+  param: int address:0x7ffd08af4584 value:69
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Enqueue(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Enqueue(T) [with T = int]
+  param: int address:0x7ffd08af4584 value:70
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Enqueue(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Enqueue(T) [with T = int]
+  param: int address:0x7ffd08af4584 value:71
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Enqueue(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Enqueue(T) [with T = int]
+  param: int address:0x7ffd08af4584 value:72
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Enqueue(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Enqueue(T) [with T = int]
+  param: int address:0x7ffd08af4584 value:73
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Enqueue(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Queue<T>::Enqueue(T) [with T = int]
+  param: int address:0x7ffd08af4584 value:74
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:false
+
+  End frame(1)--bool Queue<T>::Enqueue(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) std::string Queue<T>::ToString() [with T = int; std::string = std::basic_string<char>]
+    Start -- frame(2) int Queue<T>::Size() [with T = int]
+    End frame(2)--int Queue<T>::Size() [with T = int] at line 107
+Return Value:9
+
+    Start -- frame(2) bool Queue<T>::Full() [with T = int]
+    End frame(2)--bool Queue<T>::Full() [with T = int] at line 57
+Return Value:true
+
+    Start -- frame(2) bool Queue<T>::Empty() [with T = int]
+    End frame(2)--bool Queue<T>::Empty() [with T = int] at line 46
+Return Value:false
+
+  End frame(1)--std::string Queue<T>::ToString() [with T = int; std::string = std::basic_string<char>] at line 135
+Return Value:Empty(): false
+Full(): true
+Size(): 9
+data[5]= 11
+data[6]= 67
+data[7]= 68
+data[8]= 69
+data[9]= 70
+data[0]= 71
+data[1]= 72
+data[2]= 73
+data[3]= 74
+
+

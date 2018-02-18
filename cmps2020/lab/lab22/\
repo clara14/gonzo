@@ -1,0 +1,40 @@
+# Start of the actual Makefile
+FLAGS = -Wall -std=c++11
+
+LOG = -D LOGLEVEL=3 # 0-none, 1-low, 2-med, 3 high
+
+all:	runme1 runme2 runme3 runme4 runme5
+
+clean:
+		rm  -f runme* *~  core *.log *.gch BST_stu.o 
+
+
+runme1:	main1.cpp    BST.o BST_stu.o
+	g++ $(FLAGS) -o runme1 $(LOG) main1.cpp    BST.o BST_stu.o
+
+runme2:	main2.cpp    BST.o BST_stu.o 
+	g++ $(FLAGS) -o runme2 $(LOG) main2.cpp    BST.o BST_stu.o
+
+runme3:	main3.cpp    BST.o BST_stu.o
+	g++ $(FLAGS) -o runme3 $(LOG) main3.cpp    BST.o BST_stu.o
+
+runme4:	main4.cpp    BST.o
+	g++ $(FLAGS) -o runme4 $(LOG) main4.cpp    BST.o BST_stu.o
+
+runme5:	main5.cpp    BST.o print.h BST_stu.o
+	g++ $(FLAGS) -o runme5 $(LOG) main5.cpp    BST.o BST_stu.o
+
+BST_stu.o: BST_stu.cpp BST.h
+	g++ $(FLAGS) -c BST_stu.cpp
+
+
+
+BST_stu.o: BST.h BST_stu.cpp
+	g++ $(FLAGS) -c $(LOG) BST_stu.cpp 
+
+
+# DO NOT DELETE THIS LINE -- make depend depends on it.
+
+
+
+

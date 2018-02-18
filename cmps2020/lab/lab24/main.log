@@ -1,0 +1,1226 @@
+log file "main.log" opened
+  Start -- frame(1) AVL<T>::AVL() [with T = int]
+  End -- frame(1) AVL<T>::AVL() [with T = int]
+
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:0
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+    param: int address:0x7ffd44ee859c value:0
+      Start -- frame(3) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+      End frame(3)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:5
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x13670a0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:5
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+      param: int address:0x7ffd44ee84bc value:5
+        Start -- frame(4) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+        End frame(4)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:10
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x13670a0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:10
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x1369790 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:10
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+        param: int address:0x7ffd44ee83dc value:10
+          Start -- frame(5) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+          End frame(5)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:15
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x1369790 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:15
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x1369830 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:15
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+        param: int address:0x7ffd44ee83dc value:15
+          Start -- frame(5) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+          End frame(5)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:20
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x1369790 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:20
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x1369830 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:20
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x1369880 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:20
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+          param: int address:0x7ffd44ee82fc value:20
+            Start -- frame(6) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+            End frame(6)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:25
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x1369790 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:25
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x1369880 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:25
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x1369df0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:25
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+          param: int address:0x7ffd44ee82fc value:25
+            Start -- frame(6) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+            End frame(6)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:30
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x1369880 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:30
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x1369df0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:30
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x1369e40 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:30
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+          param: int address:0x7ffd44ee82fc value:30
+            Start -- frame(6) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+            End frame(6)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:35
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x1369880 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:35
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x1369e40 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:35
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136a2b0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:35
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+          param: int address:0x7ffd44ee82fc value:35
+            Start -- frame(6) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+            End frame(6)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:40
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x1369880 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:40
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x1369e40 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:40
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136a2b0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:40
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:40
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+            param: int address:0x7ffd44ee821c value:40
+              Start -- frame(7) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+              End frame(7)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:45
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x1369880 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:45
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x1369e40 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:45
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:45
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136ab40 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:45
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+            param: int address:0x7ffd44ee821c value:45
+              Start -- frame(7) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+              End frame(7)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:50
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x1369880 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:50
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:50
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136ab40 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:50
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136ab90 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:50
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+            param: int address:0x7ffd44ee821c value:50
+              Start -- frame(7) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+              End frame(7)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:55
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x1369880 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:55
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:55
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136ab90 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:55
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136b390 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:55
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+            param: int address:0x7ffd44ee821c value:55
+              Start -- frame(7) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+              End frame(7)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:60
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:60
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x136ab90 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:60
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136b390 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:60
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136b780 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:60
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+            param: int address:0x7ffd44ee821c value:60
+              Start -- frame(7) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+              End frame(7)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:65
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:65
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x136ab90 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:65
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136b780 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:65
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136bb70 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:65
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+            param: int address:0x7ffd44ee821c value:65
+              Start -- frame(7) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+              End frame(7)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:70
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:70
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x136b780 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:70
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136bb70 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:70
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136bf60 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:70
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+            param: int address:0x7ffd44ee821c value:70
+              Start -- frame(7) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+              End frame(7)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:75
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:75
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x136b780 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:75
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136bf60 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:75
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136c350 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:75
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+            param: int address:0x7ffd44ee821c value:75
+              Start -- frame(7) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+              End frame(7)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:80
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:80
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x136b780 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:80
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136bf60 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:80
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136c350 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:80
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0x136c740 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+            param: int address:0x7ffd44ee821c value:80
+              Start -- frame(7) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+              param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+              param: int address:0x7ffd44ee813c value:80
+                Start -- frame(8) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+                End frame(8)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+              End frame(7)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:85
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:85
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x136b780 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:85
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136bf60 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:85
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136c740 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:85
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0x136c990 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+            param: int address:0x7ffd44ee821c value:85
+              Start -- frame(7) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+              param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+              param: int address:0x7ffd44ee813c value:85
+                Start -- frame(8) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+                End frame(8)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+              End frame(7)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:90
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:90
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x136b780 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:90
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136c740 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:90
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136c990 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:90
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0x136cd50 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+            param: int address:0x7ffd44ee821c value:90
+              Start -- frame(7) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+              param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+              param: int address:0x7ffd44ee813c value:90
+                Start -- frame(8) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+                End frame(8)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+              End frame(7)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:95
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:95
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x136b780 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:95
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136c740 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:95
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136cd50 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:95
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0x136d200 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+            param: int address:0x7ffd44ee821c value:95
+              Start -- frame(7) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+              param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+              param: int address:0x7ffd44ee813c value:95
+                Start -- frame(8) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+                End frame(8)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+              End frame(7)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::remove(TreeNode<T>*, T) [with T = int]
+  param: int address:0x7ffd44ee863c value:35
+  bool AVL<T>::remove(TreeNode<T>*, T) [with T = int] at line 527  :Calling remove for a node with a value of 30 but we are atually going to put the value 30 into the node that use to have the value 35    Start -- frame(2) bool AVL<T>::remove(TreeNode<T>*, T) [with T = int]
+    param: int address:0x7ffd44ee854c value:30
+    bool AVL<T>::remove(TreeNode<T>*, T) [with T = int] at line 455  :Case 1 , no child nodes
+    bool AVL<T>::remove(TreeNode<T>*, T) [with T = int] at line 469  :deleting a node containing 30    End frame(2)--bool AVL<T>::remove(TreeNode<T>*, T) [with T = int] at line 477
+Return Value:true
+
+  End frame(1)--bool AVL<T>::remove(TreeNode<T>*, T) [with T = int] at line 530
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:100
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:100
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x136c740 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:100
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136cd50 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:100
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136d200 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:100
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0x136d6b0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+            param: int address:0x7ffd44ee821c value:100
+              Start -- frame(7) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+              param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+              param: int address:0x7ffd44ee813c value:100
+                Start -- frame(8) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+                End frame(8)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+              End frame(7)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:110
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:110
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x136c740 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:110
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136cd50 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:110
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136d6b0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:110
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0x136dac0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+            param: int address:0x7ffd44ee821c value:110
+              Start -- frame(7) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+              param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+              param: int address:0x7ffd44ee813c value:110
+                Start -- frame(8) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+                End frame(8)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+              End frame(7)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:11
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:11
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x1369880 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:11
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x1369790 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:11
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x1369830 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:11
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+            param: int address:0x7ffd44ee821c value:11
+              Start -- frame(7) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+              End frame(7)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) bool AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffd44ee8674 value:150
+    Start -- frame(2) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+    param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffd44ee859c value:150
+      Start -- frame(3) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+      param: TreeNode<int> pointer*  address:0x136c740 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffd44ee84bc value:150
+        Start -- frame(4) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136d6b0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffd44ee83dc value:150
+          Start -- frame(5) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136dac0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0x7ffd44ee82fc value:150
+            Start -- frame(6) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+            param: TreeNode<int> pointer*  address:0x1367370 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+            param: int address:0x7ffd44ee821c value:150
+              Start -- frame(7) TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int]
+              param: TreeNode<int> pointer*  address:0 points_to_value:nullptr
+              param: int address:0x7ffd44ee813c value:150
+                Start -- frame(8) TreeNode<T>* AVL<T>::createNode(T) [with T = int]
+                End frame(8)--TreeNode<T>* AVL<T>::createNode(T) [with T = int] at line 227
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+              End frame(7)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 251
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+            End frame(6)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+          End frame(5)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        End frame(4)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      End frame(3)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--TreeNode<T>* AVL<T>::insertSubtree(TreeNode<T>*, T) [with T = int] at line 292
+Return Value:unknown type <TreeNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool AVL<T>::insert(T) [with T = int] at line 239
+Return Value:true
+
+  Start -- frame(1) AVL<T>::~AVL() [with T = int]
+    Start -- frame(2) void AVL<T>::deallocate() [with T = int]
+      Start -- frame(3) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+      param: TreeNode<int> pointer*  address:0x136a450 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- frame(4) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+        param: TreeNode<int> pointer*  address:0x1369880 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- frame(5) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+          param: TreeNode<int> pointer*  address:0x1369790 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- frame(6) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            param: TreeNode<int> pointer*  address:0x13670a0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+            End -- frame(6) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            Start -- frame(6) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            param: TreeNode<int> pointer*  address:0x1369830 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+              Start -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+              param: TreeNode<int> pointer*  address:0x13677a0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+              End -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            End -- frame(6) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+          End -- frame(5) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+          Start -- frame(5) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+          param: TreeNode<int> pointer*  address:0x1369e40 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- frame(6) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            param: TreeNode<int> pointer*  address:0x1369df0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+            End -- frame(6) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+          End -- frame(5) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+        End -- frame(4) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+        Start -- frame(4) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+        param: TreeNode<int> pointer*  address:0x136c740 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- frame(5) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136b780 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- frame(6) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            param: TreeNode<int> pointer*  address:0x136ab90 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+              Start -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+              param: TreeNode<int> pointer*  address:0x136ab40 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+              End -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+              Start -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+              param: TreeNode<int> pointer*  address:0x136b390 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+              End -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            End -- frame(6) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            Start -- frame(6) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            param: TreeNode<int> pointer*  address:0x136bf60 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+              Start -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+              param: TreeNode<int> pointer*  address:0x136bb70 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+              End -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+              Start -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+              param: TreeNode<int> pointer*  address:0x136c350 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+              End -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            End -- frame(6) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+          End -- frame(5) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+          Start -- frame(5) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+          param: TreeNode<int> pointer*  address:0x136d6b0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- frame(6) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            param: TreeNode<int> pointer*  address:0x136cd50 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+              Start -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+              param: TreeNode<int> pointer*  address:0x136c990 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+              End -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+              Start -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+              param: TreeNode<int> pointer*  address:0x136d200 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+              End -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            End -- frame(6) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            Start -- frame(6) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            param: TreeNode<int> pointer*  address:0x1367370 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+              Start -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+              param: TreeNode<int> pointer*  address:0x136dac0 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+              End -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+              Start -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+              param: TreeNode<int> pointer*  address:0x1367c70 points_to_value:unknown type <TreeNode<int>>, cant display value try converting it to a string or overoad ostream << 
+
+              End -- frame(7) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+            End -- frame(6) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+          End -- frame(5) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+        End -- frame(4) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+      End -- frame(3) void AVL<T>::deallocateSubtree(TreeNode<T>*) [with T = int]
+    End -- frame(2) void AVL<T>::deallocate() [with T = int]
+  End -- frame(1) AVL<T>::~AVL() [with T = int]
+
+

@@ -1,0 +1,25 @@
+log file "main22.log" opened
+  Start -- frame(1) int Sort1(int*, int)
+  param: int*  address:0x7ffc3969d530 points_to_value:5
+  param: int address:0x7ffc3969d454 value:20
+  End frame(1)--int Sort1(int*, int) at line 18
+Return Value:380
+
+  Start -- frame(1) int Sort2(int*, int)
+  param: int*  address:0x7ffc3969d580 points_to_value:5
+  param: int address:0x7ffc3969d454 value:20
+  End frame(1)--int Sort2(int*, int) at line 37
+Return Value:190
+
+  Start -- frame(1) int Sort3(int*, int)
+  param: int*  address:0x7ffc3969d5d0 points_to_value:5
+  param: int address:0x7ffc3969d444 value:20
+  End frame(1)--int Sort3(int*, int) at line 64
+Return Value:37
+
+  Start -- frame(1) int Sort4(int*, int)
+  param: int*  address:0x7ffc3969d620 points_to_value:5
+  param: int address:0x7ffc3969d444 value:20
+  End frame(1)--int Sort4(int*, int) at line 93
+Return Value:19
+

@@ -1,0 +1,386 @@
+log file "main1.log" opened
+  Start -- frame(1) DynamicArray::DynamicArray(int)
+  param: int address:0x7ffdce3cdc94 value:5
+  DynamicArray::DynamicArray(int) at line 9  :at the beginning of constructor. the pointer data is unknown type <std::string**>, cant display value try converting it to a string or overoad ostream << 
+
+  DynamicArray::DynamicArray(int) at line 11  :setting the pointer 'data' to a new array of size 5
+  DynamicArray::DynamicArray(int) at line 13  :at the end of constructor. the pointer data is unknown type <std::string**>, cant display value try converting it to a string or overoad ostream << 
+, it should be different than what it was
+  End -- frame(1) DynamicArray::DynamicArray(int)
+  param: int address:0x7ffdce3cdc94 value:5
+
+
+  Start -- frame(1) DynamicArray::DynamicArray(int)
+  param: int address:0x7ffdce3cdc94 value:5
+  DynamicArray::DynamicArray(int) at line 9  :at the beginning of constructor. the pointer data is unknown type <std::string**>, cant display value try converting it to a string or overoad ostream << 
+
+  DynamicArray::DynamicArray(int) at line 11  :setting the pointer 'data' to a new array of size 5
+  DynamicArray::DynamicArray(int) at line 13  :at the end of constructor. the pointer data is unknown type <std::string**>, cant display value try converting it to a string or overoad ostream << 
+, it should be different than what it was
+  End -- frame(1) DynamicArray::DynamicArray(int)
+  param: int address:0x7ffdce3cdc94 value:5
+
+
+  Start -- frame(1) DynamicArray::DynamicArray(int)
+  param: int address:0x7ffdce3cdc94 value:5
+  DynamicArray::DynamicArray(int) at line 9  :at the beginning of constructor. the pointer data is unknown type <std::string**>, cant display value try converting it to a string or overoad ostream << 
+
+  DynamicArray::DynamicArray(int) at line 11  :setting the pointer 'data' to a new array of size 5
+  DynamicArray::DynamicArray(int) at line 13  :at the end of constructor. the pointer data is unknown type <std::string**>, cant display value try converting it to a string or overoad ostream << 
+, it should be different than what it was
+  End -- frame(1) DynamicArray::DynamicArray(int)
+  param: int address:0x7ffdce3cdc94 value:5
+
+
+  Start -- frame(1) DynamicArray::DynamicArray(int)
+  param: int address:0x7ffdce3cdc94 value:5
+  DynamicArray::DynamicArray(int) at line 9  :at the beginning of constructor. the pointer data is unknown type <std::string**>, cant display value try converting it to a string or overoad ostream << 
+
+  DynamicArray::DynamicArray(int) at line 11  :setting the pointer 'data' to a new array of size 5
+  DynamicArray::DynamicArray(int) at line 13  :at the end of constructor. the pointer data is unknown type <std::string**>, cant display value try converting it to a string or overoad ostream << 
+, it should be different than what it was
+  End -- frame(1) DynamicArray::DynamicArray(int)
+  param: int address:0x7ffdce3cdc94 value:5
+
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffdce3cde60 value:Manjula
+  param: int address:0x7ffdce3cdd4c value:0
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 45
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffdce3cde70 value:Marge
+  param: int address:0x7ffdce3cdd4c value:1
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 45
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffdce3cde80 value:Bart
+  param: int address:0x7ffdce3cdd4c value:2
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 45
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffdce3cde90 value:Lisa
+  param: int address:0x7ffdce3cdd4c value:3
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 45
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffdce3cdea0 value:Maggie
+  param: int address:0x7ffdce3cdd4c value:4
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 45
+Return Value:true
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: 
+data[1] value: 
+data[2] value: 
+data[3] value: 
+data[4] value: 
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: 
+data[1] value: 
+data[2] value: 
+data[3] value: 
+data[4] value: 
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: 
+data[1] value: 
+data[2] value: 
+data[3] value: 
+data[4] value: 
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: Manjula
+data[1] value: Marge
+data[2] value: Bart
+data[3] value: Lisa
+data[4] value: Maggie
+
+
+  Start -- frame(1) DynamicArray& DynamicArray::operator=(const DynamicArray&)
+  param: DynamicArray address:0x7ffdce3cde50 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--DynamicArray& DynamicArray::operator=(const DynamicArray&) at line 92
+Return Value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- frame(1) DynamicArray& DynamicArray::operator=(const DynamicArray&)
+  param: DynamicArray address:0x7ffdce3cde50 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--DynamicArray& DynamicArray::operator=(const DynamicArray&) at line 92
+Return Value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: 
+data[1] value: 
+data[2] value: 
+data[3] value: 
+data[4] value: 
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: Manjula
+data[1] value: Marge
+data[2] value: Bart
+data[3] value: Lisa
+data[4] value: Maggie
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: Manjula
+data[1] value: Marge
+data[2] value: Bart
+data[3] value: Lisa
+data[4] value: Maggie
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: Manjula
+data[1] value: Marge
+data[2] value: Bart
+data[3] value: Lisa
+data[4] value: Maggie
+
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffdce3cdf30 value:Otto
+  param: int address:0x7ffdce3cdd4c value:0
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 45
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffdce3cdf40 value:Krusty
+  param: int address:0x7ffdce3cdd4c value:1
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 45
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffdce3cdf50 value:SuperNintendo Chalmers
+  param: int address:0x7ffdce3cdd4c value:2
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 45
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffdce3cdf60 value:Groundskeeper Willy
+  param: int address:0x7ffdce3cdd4c value:3
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 45
+Return Value:true
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: 
+data[1] value: 
+data[2] value: 
+data[3] value: 
+data[4] value: 
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: Manjula
+data[1] value: Marge
+data[2] value: Bart
+data[3] value: Lisa
+data[4] value: Maggie
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: Manjula
+data[1] value: Marge
+data[2] value: Bart
+data[3] value: Lisa
+data[4] value: Maggie
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: Otto
+data[1] value: Krusty
+data[2] value: SuperNintendo Chalmers
+data[3] value: Groundskeeper Willy
+data[4] value: Maggie
+
+
+  Start -- frame(1) DynamicArray DynamicArray::operator+(const DynamicArray&)
+  param: DynamicArray address:0x7ffdce3cde40 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- frame(2) DynamicArray::DynamicArray(int)
+    param: int address:0x7ffdce3cdba4 value:10
+    DynamicArray::DynamicArray(int) at line 9  :at the beginning of constructor. the pointer data is unknown type <std::string**>, cant display value try converting it to a string or overoad ostream << 
+
+    DynamicArray::DynamicArray(int) at line 11  :setting the pointer 'data' to a new array of size 10
+    DynamicArray::DynamicArray(int) at line 13  :at the end of constructor. the pointer data is unknown type <std::string**>, cant display value try converting it to a string or overoad ostream << 
+, it should be different than what it was
+    End -- frame(2) DynamicArray::DynamicArray(int)
+    param: int address:0x7ffdce3cdba4 value:10
+  End frame(1)--DynamicArray DynamicArray::operator+(const DynamicArray&) at line 109
+Return Value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- frame(1) DynamicArray& DynamicArray::operator=(const DynamicArray&)
+  param: DynamicArray address:0x7ffdce3cdfb0 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--DynamicArray& DynamicArray::operator=(const DynamicArray&) at line 92
+Return Value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- frame(1) DynamicArray::~DynamicArray()
+  DynamicArray::~DynamicArray() at line 20  :deleting [] data in destructor
+  End -- frame(1) DynamicArray::~DynamicArray()
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 10
+data[0] value: Otto
+data[1] value: Krusty
+data[2] value: SuperNintendo Chalmers
+data[3] value: Groundskeeper Willy
+data[4] value: Maggie
+data[5] value: Manjula
+data[6] value: Marge
+data[7] value: Bart
+data[8] value: Lisa
+data[9] value: Maggie
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: Manjula
+data[1] value: Marge
+data[2] value: Bart
+data[3] value: Lisa
+data[4] value: Maggie
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: Manjula
+data[1] value: Marge
+data[2] value: Bart
+data[3] value: Lisa
+data[4] value: Maggie
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 34
+Return Value:capacity: 5
+data[0] value: Otto
+data[1] value: Krusty
+data[2] value: SuperNintendo Chalmers
+data[3] value: Groundskeeper Willy
+data[4] value: Maggie
+
+
+  Start -- frame(1) bool DynamicArray::operator==(const DynamicArray&)
+  param: DynamicArray address:0x7ffdce3cde50 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool DynamicArray::operator==(const DynamicArray&) at line 72
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::operator==(const DynamicArray&)
+  param: DynamicArray address:0x7ffdce3cde40 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool DynamicArray::operator==(const DynamicArray&) at line 72
+Return Value:false
+
+  Start -- frame(1) bool DynamicArray::operator==(const DynamicArray&)
+  param: DynamicArray address:0x7ffdce3cde30 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool DynamicArray::operator==(const DynamicArray&) at line 72
+Return Value:false
+
+  Start -- frame(1) bool DynamicArray::operator==(const DynamicArray&)
+  param: DynamicArray address:0x7ffdce3cde20 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool DynamicArray::operator==(const DynamicArray&) at line 72
+Return Value:false
+
+  Start -- frame(1) bool DynamicArray::operator==(const DynamicArray&)
+  param: DynamicArray address:0x7ffdce3cde30 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool DynamicArray::operator==(const DynamicArray&) at line 72
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::operator==(const DynamicArray&)
+  param: DynamicArray address:0x7ffdce3cde50 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool DynamicArray::operator==(const DynamicArray&) at line 72
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::operator==(const DynamicArray&)
+  param: DynamicArray address:0x7ffdce3cde50 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool DynamicArray::operator==(const DynamicArray&) at line 72
+Return Value:false
+
+  Start -- frame(1) bool DynamicArray::operator==(const DynamicArray&)
+  param: DynamicArray address:0x7ffdce3cde50 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool DynamicArray::operator==(const DynamicArray&) at line 72
+Return Value:false
+
+  Start -- frame(1) bool DynamicArray::operator==(const DynamicArray&)
+  param: DynamicArray address:0x7ffdce3cde50 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool DynamicArray::operator==(const DynamicArray&) at line 72
+Return Value:false
+
+  Start -- frame(1) bool DynamicArray::operator==(const DynamicArray&)
+  param: DynamicArray address:0x7ffdce3cde40 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool DynamicArray::operator==(const DynamicArray&) at line 72
+Return Value:true
+
+  Start -- frame(1) DynamicArray::~DynamicArray()
+  DynamicArray::~DynamicArray() at line 20  :deleting [] data in destructor
+  End -- frame(1) DynamicArray::~DynamicArray()
+
+
+  Start -- frame(1) DynamicArray::~DynamicArray()
+  DynamicArray::~DynamicArray() at line 20  :deleting [] data in destructor
+  End -- frame(1) DynamicArray::~DynamicArray()
+
+
+  Start -- frame(1) DynamicArray::~DynamicArray()
+  DynamicArray::~DynamicArray() at line 20  :deleting [] data in destructor
+  End -- frame(1) DynamicArray::~DynamicArray()
+
+
+  Start -- frame(1) DynamicArray::~DynamicArray()
+  DynamicArray::~DynamicArray() at line 20  :deleting [] data in destructor
+  End -- frame(1) DynamicArray::~DynamicArray()
+
+

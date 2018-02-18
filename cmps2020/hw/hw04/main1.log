@@ -1,0 +1,158 @@
+log file "main1.log" opened
+  Start -- frame(1) static int DynamicArray::GetObjectCount()
+  End frame(1)--static int DynamicArray::GetObjectCount() at line 61
+Return Value:0
+
+  Start -- frame(1) DynamicArray::DynamicArray(int)
+  param: int address:0x7fff73357534 value:5
+  DynamicArray::DynamicArray(int) at line 10  :incrementing object count
+  DynamicArray::DynamicArray(int) at line 12  :at the beginning of constructor. the pointer data is unknown type <std::string**>, cant display value try converting it to a string or overoad ostream << 
+
+  DynamicArray::DynamicArray(int) at line 14  :setting the pointer 'data' to a new array of size 5
+  DynamicArray::DynamicArray(int) at line 16  :at the end of constructor. the pointer data is unknown type <std::string**>, cant display value try converting it to a string or overoad ostream << 
+, it should be different than what it was
+  End -- frame(1) DynamicArray::DynamicArray(int)
+  param: int address:0x7fff73357534 value:5
+
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 38
+Return Value:data[0] value: 
+data[1] value: 
+data[2] value: 
+data[3] value: 
+data[4] value: 
+
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7fff733576f0 value:Homer
+  param: int address:0x7fff733575ec value:0
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7fff73357700 value:Marge
+  param: int address:0x7fff733575ec value:1
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7fff73357710 value:Bart
+  param: int address:0x7fff733575ec value:2
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7fff73357720 value:Lisa
+  param: int address:0x7fff733575ec value:3
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7fff73357730 value:Maggie
+  param: int address:0x7fff733575ec value:4
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:true
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7fff73357740 value:Apu
+  param: int address:0x7fff733575ec value:5
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 53
+Return Value:false
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 38
+Return Value:data[0] value: Homer
+data[1] value: Marge
+data[2] value: Bart
+data[3] value: Lisa
+data[4] value: Maggie
+
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7fff73357760 value:Manjula
+  param: int address:0x7fff733575ec value:0
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:true
+
+  Start -- frame(1) std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 38
+Return Value:data[0] value: Manjula
+data[1] value: Marge
+data[2] value: Bart
+data[3] value: Lisa
+data[4] value: Maggie
+
+
+  Start -- frame(1) static int DynamicArray::GetObjectCount()
+  End frame(1)--static int DynamicArray::GetObjectCount() at line 61
+Return Value:1
+
+  Start -- frame(1) DynamicArray::DynamicArray(int)
+  param: int address:0x7fff73357534 value:5
+  DynamicArray::DynamicArray(int) at line 10  :incrementing object count
+  DynamicArray::DynamicArray(int) at line 12  :at the beginning of constructor. the pointer data is unknown type <std::string**>, cant display value try converting it to a string or overoad ostream << 
+
+  DynamicArray::DynamicArray(int) at line 14  :setting the pointer 'data' to a new array of size 5
+  DynamicArray::DynamicArray(int) at line 16  :at the end of constructor. the pointer data is unknown type <std::string**>, cant display value try converting it to a string or overoad ostream << 
+, it should be different than what it was
+  End -- frame(1) DynamicArray::DynamicArray(int)
+  param: int address:0x7fff73357534 value:5
+
+
+  Start -- frame(1) bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7fff73357780 value:Otto
+  param: int address:0x7fff733575ec value:3
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:true
+
+  Start -- frame(1) static int DynamicArray::GetObjectCount()
+  End frame(1)--static int DynamicArray::GetObjectCount() at line 61
+Return Value:2
+
+  Start -- frame(1) std::string CreateXML(DynamicArray&)
+  param: DynamicArray address:0x7fff733576d0 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--std::string CreateXML(DynamicArray&) at line 83
+Return Value:<DynamicArray>
+<capacity>5</capacity>
+<object_count>2</object_count>
+<data>
+<value>Manjula</value>
+<value>Marge</value>
+<value>Bart</value>
+<value>Lisa</value>
+<value>Maggie</value>
+</data>
+</DynamicArray>
+
+
+  Start -- frame(1) std::string CreateXML(DynamicArray&)
+  param: DynamicArray address:0x7fff733576c0 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--std::string CreateXML(DynamicArray&) at line 83
+Return Value:<DynamicArray>
+<capacity>5</capacity>
+<object_count>2</object_count>
+<data>
+<value></value>
+<value></value>
+<value></value>
+<value>Otto</value>
+<value></value>
+</data>
+</DynamicArray>
+
+
+  Start -- frame(1) DynamicArray::~DynamicArray()
+  DynamicArray::~DynamicArray() at line 23  :incrementing object count
+  DynamicArray::~DynamicArray() at line 25  :deleting [] data in destructor
+  End -- frame(1) DynamicArray::~DynamicArray()
+
+
+  Start -- frame(1) DynamicArray::~DynamicArray()
+  DynamicArray::~DynamicArray() at line 23  :incrementing object count
+  DynamicArray::~DynamicArray() at line 25  :deleting [] data in destructor
+  End -- frame(1) DynamicArray::~DynamicArray()
+
+

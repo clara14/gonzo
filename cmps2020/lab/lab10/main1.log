@@ -1,0 +1,57 @@
+log file "main1.log" opened
+  Start -- frame(1) int Sort1(int*, int)
+  param: int*  address:0x7ffd7b595620 points_to_value:10
+  param: int address:0x7ffd7b595544 value:20
+  End frame(1)--int Sort1(int*, int) at line 18
+Return Value:380
+
+  Start -- frame(1) int Sort2(int*, int)
+  param: int*  address:0x7ffd7b595670 points_to_value:10
+  param: int address:0x7ffd7b595544 value:20
+  End frame(1)--int Sort2(int*, int) at line 37
+Return Value:190
+
+  Start -- frame(1) int Sort3(int*, int)
+  param: int*  address:0x7ffd7b5956c0 points_to_value:10
+  param: int address:0x7ffd7b595534 value:20
+  End frame(1)--int Sort3(int*, int) at line 64
+Return Value:187
+
+  Start -- frame(1) int Sort4(int*, int)
+  param: int*  address:0x7ffd7b595710 points_to_value:10
+  param: int address:0x7ffd7b595534 value:20
+  End frame(1)--int Sort4(int*, int) at line 93
+Return Value:190
+
+  Start -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x7ffd7b595620 points_to_value:5
+  param: int address:0x7ffd7b5954b4 value:20
+  End -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x7ffd7b595620 points_to_value:5
+  param: int address:0x7ffd7b5954b4 value:20
+
+
+  Start -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x7ffd7b595670 points_to_value:5
+  param: int address:0x7ffd7b5954b4 value:20
+  End -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x7ffd7b595670 points_to_value:5
+  param: int address:0x7ffd7b5954b4 value:20
+
+
+  Start -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x7ffd7b5956c0 points_to_value:5
+  param: int address:0x7ffd7b5954b4 value:20
+  End -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x7ffd7b5956c0 points_to_value:5
+  param: int address:0x7ffd7b5954b4 value:20
+
+
+  Start -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x7ffd7b595710 points_to_value:5
+  param: int address:0x7ffd7b5954b4 value:20
+  End -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x7ffd7b595710 points_to_value:5
+  param: int address:0x7ffd7b5954b4 value:20
+
+

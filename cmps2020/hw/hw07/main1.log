@@ -1,0 +1,293 @@
+log file "main1.log" opened
+  Start -- frame(1) Stack::Stack(int)
+  param: int address:0x7ffd8f90d354 value:4
+  End -- frame(1) Stack::Stack(int)
+
+
+  Start -- frame(1) int Stack::Capacity()
+  End frame(1)--int Stack::Capacity() at line 129
+Return Value:4
+
+  Start -- frame(1) void Stack::Push(int)
+  param: int address:0x7ffd8f90d344 value:5
+    Start -- frame(2) bool Stack::Full()
+    End frame(2)--bool Stack::Full() at line 122
+Return Value:false
+
+  End -- frame(1) void Stack::Push(int)
+
+
+  Start -- frame(1) void Stack::Push(int)
+  param: int address:0x7ffd8f90d344 value:29
+    Start -- frame(2) bool Stack::Full()
+    End frame(2)--bool Stack::Full() at line 122
+Return Value:false
+
+  End -- frame(1) void Stack::Push(int)
+
+
+  Start -- frame(1) void Stack::Push(int)
+  param: int address:0x7ffd8f90d344 value:8
+    Start -- frame(2) bool Stack::Full()
+    End frame(2)--bool Stack::Full() at line 122
+Return Value:false
+
+  End -- frame(1) void Stack::Push(int)
+
+
+  Start -- frame(1) void Stack::Push(int)
+  param: int address:0x7ffd8f90d344 value:11
+    Start -- frame(2) bool Stack::Full()
+    End frame(2)--bool Stack::Full() at line 122
+Return Value:false
+
+  End -- frame(1) void Stack::Push(int)
+
+
+  Start -- frame(1) bool Stack::Full()
+  End frame(1)--bool Stack::Full() at line 122
+Return Value:true
+
+  Start -- frame(1) int Stack::Top()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End frame(1)--int Stack::Top() at line 97
+Return Value:11
+
+  Start -- frame(1) void Stack::Pop()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End -- frame(1) void Stack::Pop()
+
+
+  Start -- frame(1) int Stack::Top()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End frame(1)--int Stack::Top() at line 97
+Return Value:8
+
+  Start -- frame(1) void Stack::Pop()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End -- frame(1) void Stack::Pop()
+
+
+  Start -- frame(1) int Stack::Top()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End frame(1)--int Stack::Top() at line 97
+Return Value:29
+
+  Start -- frame(1) void Stack::Pop()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End -- frame(1) void Stack::Pop()
+
+
+  Start -- frame(1) int Stack::Top()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End frame(1)--int Stack::Top() at line 97
+Return Value:5
+
+  Start -- frame(1) void Stack::Pop()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End -- frame(1) void Stack::Pop()
+
+
+  Start -- frame(1) bool Stack::Empty()
+  End frame(1)--bool Stack::Empty() at line 110
+Return Value:true
+
+  Start -- frame(1) Stack::Stack(int)
+  param: int address:0x7ffd8f90d354 value:6
+  End -- frame(1) Stack::Stack(int)
+
+
+  Start -- frame(1) int Stack::Capacity()
+  End frame(1)--int Stack::Capacity() at line 129
+Return Value:6
+
+  Start -- frame(1) void Stack::Push(int)
+  param: int address:0x7ffd8f90d344 value:5
+    Start -- frame(2) bool Stack::Full()
+    End frame(2)--bool Stack::Full() at line 122
+Return Value:false
+
+  End -- frame(1) void Stack::Push(int)
+
+
+  Start -- frame(1) void Stack::Push(int)
+  param: int address:0x7ffd8f90d344 value:29
+    Start -- frame(2) bool Stack::Full()
+    End frame(2)--bool Stack::Full() at line 122
+Return Value:false
+
+  End -- frame(1) void Stack::Push(int)
+
+
+  Start -- frame(1) void Stack::Push(int)
+  param: int address:0x7ffd8f90d344 value:8
+    Start -- frame(2) bool Stack::Full()
+    End frame(2)--bool Stack::Full() at line 122
+Return Value:false
+
+  End -- frame(1) void Stack::Push(int)
+
+
+  Start -- frame(1) void Stack::Push(int)
+  param: int address:0x7ffd8f90d344 value:11
+    Start -- frame(2) bool Stack::Full()
+    End frame(2)--bool Stack::Full() at line 122
+Return Value:false
+
+  End -- frame(1) void Stack::Push(int)
+
+
+  Start -- frame(1) void Stack::Push(int)
+  param: int address:0x7ffd8f90d344 value:33
+    Start -- frame(2) bool Stack::Full()
+    End frame(2)--bool Stack::Full() at line 122
+Return Value:false
+
+  End -- frame(1) void Stack::Push(int)
+
+
+  Start -- frame(1) void Stack::Push(int)
+  param: int address:0x7ffd8f90d344 value:1
+    Start -- frame(2) bool Stack::Full()
+    End frame(2)--bool Stack::Full() at line 122
+Return Value:false
+
+  End -- frame(1) void Stack::Push(int)
+
+
+  Start -- frame(1) bool Stack::Full()
+  End frame(1)--bool Stack::Full() at line 122
+Return Value:true
+
+  Start -- frame(1) int Stack::Top()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End frame(1)--int Stack::Top() at line 97
+Return Value:1
+
+  Start -- frame(1) void Stack::Pop()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End -- frame(1) void Stack::Pop()
+
+
+  Start -- frame(1) int Stack::Top()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End frame(1)--int Stack::Top() at line 97
+Return Value:33
+
+  Start -- frame(1) void Stack::Pop()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End -- frame(1) void Stack::Pop()
+
+
+  Start -- frame(1) int Stack::Top()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End frame(1)--int Stack::Top() at line 97
+Return Value:11
+
+  Start -- frame(1) void Stack::Pop()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End -- frame(1) void Stack::Pop()
+
+
+  Start -- frame(1) int Stack::Top()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End frame(1)--int Stack::Top() at line 97
+Return Value:8
+
+  Start -- frame(1) void Stack::Pop()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End -- frame(1) void Stack::Pop()
+
+
+  Start -- frame(1) int Stack::Top()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End frame(1)--int Stack::Top() at line 97
+Return Value:29
+
+  Start -- frame(1) void Stack::Pop()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End -- frame(1) void Stack::Pop()
+
+
+  Start -- frame(1) int Stack::Top()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End frame(1)--int Stack::Top() at line 97
+Return Value:5
+
+  Start -- frame(1) void Stack::Pop()
+    Start -- frame(2) bool Stack::Empty()
+    End frame(2)--bool Stack::Empty() at line 110
+Return Value:false
+
+  End -- frame(1) void Stack::Pop()
+
+
+  Start -- frame(1) bool Stack::Empty()
+  End frame(1)--bool Stack::Empty() at line 110
+Return Value:true
+
+  Start -- frame(1) Stack::~Stack()
+  End -- frame(1) Stack::~Stack()
+
+
+  Start -- frame(1) Stack::~Stack()
+  End -- frame(1) Stack::~Stack()
+
+

@@ -1,0 +1,217 @@
+log file "main.log" opened
+  Start -- frame(1) SLinkedList::SLinkedList()
+  End -- frame(1) SLinkedList::SLinkedList()
+
+
+  Start -- frame(1) std::string SLinkedList::ToString()
+  End frame(1)--std::string SLinkedList::ToString() at line 54
+Return Value:SLinkedList:
+head: 0
+
+
+  Start -- frame(1) bool SLinkedList::Insert(int, SListNode*)
+  param: int address:0x7ffc8ed77b84 value:30
+  param: SListNode pointer*  address:0 points_to_value:nullptr
+    Start -- frame(2) SListNode* SLinkedList::createNode(int)
+    param: int address:0x7ffc8ed77a94 value:30
+    End frame(2)--SListNode* SLinkedList::createNode(int) at line 35
+Return Value:unknown type <SListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool SLinkedList::Insert(int, SListNode*) at line 139
+Return Value:true
+
+  Start -- frame(1) std::string SLinkedList::ToString()
+  End frame(1)--std::string SLinkedList::ToString() at line 54
+Return Value:SLinkedList:
+head: 0x1f9a6c0
+Node:
+Address: 0x1f9a6c0 next: 0 value: 30
+
+
+  Start -- frame(1) bool SLinkedList::Insert(int, SListNode*)
+  param: int address:0x7ffc8ed77b84 value:20
+  param: SListNode pointer*  address:0 points_to_value:nullptr
+    Start -- frame(2) SListNode* SLinkedList::createNode(int)
+    param: int address:0x7ffc8ed77a94 value:20
+    End frame(2)--SListNode* SLinkedList::createNode(int) at line 35
+Return Value:unknown type <SListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool SLinkedList::Insert(int, SListNode*) at line 147
+Return Value:true
+
+  Start -- frame(1) std::string SLinkedList::ToString()
+  End frame(1)--std::string SLinkedList::ToString() at line 54
+Return Value:SLinkedList:
+head: 0x1f9a310
+Node:
+Address: 0x1f9a310 next: 0x1f9a6c0 value: 20
+Node:
+Address: 0x1f9a6c0 next: 0 value: 30
+
+
+  Start -- frame(1) bool SLinkedList::Insert(int, SListNode*)
+  param: int address:0x7ffc8ed77b84 value:10
+  param: SListNode pointer*  address:0 points_to_value:nullptr
+    Start -- frame(2) SListNode* SLinkedList::createNode(int)
+    param: int address:0x7ffc8ed77a94 value:10
+    End frame(2)--SListNode* SLinkedList::createNode(int) at line 35
+Return Value:unknown type <SListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool SLinkedList::Insert(int, SListNode*) at line 147
+Return Value:true
+
+  Start -- frame(1) std::string SLinkedList::ToString()
+  End frame(1)--std::string SLinkedList::ToString() at line 54
+Return Value:SLinkedList:
+head: 0x1f9a490
+Node:
+Address: 0x1f9a490 next: 0x1f9a310 value: 10
+Node:
+Address: 0x1f9a310 next: 0x1f9a6c0 value: 20
+Node:
+Address: 0x1f9a6c0 next: 0 value: 30
+
+
+  Start -- frame(1) SListNode* SLinkedList::Search(int)
+  param: int address:0x7ffc8ed77b84 value:20
+  End frame(1)--SListNode* SLinkedList::Search(int) at line 20
+Return Value:unknown type <SListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- frame(1) bool SLinkedList::Insert(int, SListNode*)
+  param: int address:0x7ffc8ed77b84 value:25
+  param: SListNode pointer*  address:0x1f9a310 points_to_value:unknown type <SListNode>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- frame(2) SListNode* SLinkedList::createNode(int)
+    param: int address:0x7ffc8ed77a94 value:25
+    End frame(2)--SListNode* SLinkedList::createNode(int) at line 35
+Return Value:unknown type <SListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool SLinkedList::InList(SListNode*) at line 57
+Return Value:true
+
+End frame(0)--bool SLinkedList::Insert(int, SListNode*) at line 160
+Return Value:true
+
+  Start -- frame(0) std::string SLinkedList::ToString()
+  End frame(0)--std::string SLinkedList::ToString() at line 54
+Return Value:SLinkedList:
+head: 0x1f9a490
+Node:
+Address: 0x1f9a490 next: 0x1f9a310 value: 10
+Node:
+Address: 0x1f9a310 next: 0x1f9a960 value: 20
+Node:
+Address: 0x1f9a960 next: 0x1f9a6c0 value: 25
+Node:
+Address: 0x1f9a6c0 next: 0 value: 30
+
+
+  Start -- frame(0) SListNode* SLinkedList::Search(int)
+  param: int address:0x7ffc8ed77b84 value:20
+  End frame(0)--SListNode* SLinkedList::Search(int) at line 20
+Return Value:unknown type <SListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- frame(0) bool SLinkedList::Delete(SListNode*)
+  param: SListNode pointer*  address:0x1f9a310 points_to_value:unknown type <SListNode>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- frame(1) bool SLinkedList::Empty()
+    End frame(1)--bool SLinkedList::Empty() at line 244
+Return Value:false
+
+  End frame(0)--bool SLinkedList::Delete(SListNode*) at line 202
+Return Value:true
+
+  Start -- frame(0) std::string SLinkedList::ToString()
+  End frame(0)--std::string SLinkedList::ToString() at line 54
+Return Value:SLinkedList:
+head: 0x1f9a490
+Node:
+Address: 0x1f9a490 next: 0x1f9a960 value: 10
+Node:
+Address: 0x1f9a960 next: 0x1f9a6c0 value: 25
+Node:
+Address: 0x1f9a6c0 next: 0 value: 30
+
+
+  Start -- frame(0) SListNode* SLinkedList::Search(int)
+  param: int address:0x7ffc8ed77b84 value:10
+  End frame(0)--SListNode* SLinkedList::Search(int) at line 20
+Return Value:unknown type <SListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- frame(0) bool SLinkedList::Delete(SListNode*)
+  param: SListNode pointer*  address:0x1f9a490 points_to_value:unknown type <SListNode>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- frame(1) bool SLinkedList::Empty()
+    End frame(1)--bool SLinkedList::Empty() at line 244
+Return Value:false
+
+  End frame(0)--bool SLinkedList::Delete(SListNode*) at line 190
+Return Value:false
+
+  Start -- frame(0) std::string SLinkedList::ToString()
+  End frame(0)--std::string SLinkedList::ToString() at line 54
+Return Value:SLinkedList:
+head: 0x1f9a960
+Node:
+Address: 0x1f9a960 next: 0x1f9a6c0 value: 25
+Node:
+Address: 0x1f9a6c0 next: 0 value: 30
+
+
+  Start -- frame(0) SListNode* SLinkedList::Search(int)
+  param: int address:0x7ffc8ed77b84 value:30
+  End frame(0)--SListNode* SLinkedList::Search(int) at line 20
+Return Value:unknown type <SListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- frame(0) bool SLinkedList::Delete(SListNode*)
+  param: SListNode pointer*  address:0x1f9a6c0 points_to_value:unknown type <SListNode>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- frame(1) bool SLinkedList::Empty()
+    End frame(1)--bool SLinkedList::Empty() at line 244
+Return Value:false
+
+  End frame(0)--bool SLinkedList::Delete(SListNode*) at line 202
+Return Value:true
+
+  Start -- frame(0) std::string SLinkedList::ToString()
+  End frame(0)--std::string SLinkedList::ToString() at line 54
+Return Value:SLinkedList:
+head: 0x1f9a960
+Node:
+Address: 0x1f9a960 next: 0 value: 25
+
+
+  Start -- frame(0) SListNode* SLinkedList::Search(int)
+  param: int address:0x7ffc8ed77b84 value:25
+  End frame(0)--SListNode* SLinkedList::Search(int) at line 20
+Return Value:unknown type <SListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- frame(0) bool SLinkedList::Delete(SListNode*)
+  param: SListNode pointer*  address:0x1f9a960 points_to_value:unknown type <SListNode>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- frame(1) bool SLinkedList::Empty()
+    End frame(1)--bool SLinkedList::Empty() at line 244
+Return Value:false
+
+  End frame(0)--bool SLinkedList::Delete(SListNode*) at line 190
+Return Value:false
+
+  Start -- frame(0) std::string SLinkedList::ToString()
+  End frame(0)--std::string SLinkedList::ToString() at line 54
+Return Value:SLinkedList:
+head: 0
+
+
+  Start -- frame(0) SLinkedList::~SLinkedList()
+  End -- frame(0) SLinkedList::~SLinkedList()
+
+

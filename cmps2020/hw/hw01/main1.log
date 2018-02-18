@@ -1,0 +1,235 @@
+log file "main1.log" opened
+  Start -- frame(1) int MidIntVal(int, int, int)
+  param: int address:0x7fffd5be74ac value:-10
+  param: int address:0x7fffd5be74a8 value:0
+  param: int address:0x7fffd5be74a4 value:10
+  End frame(1)--int MidIntVal(int, int, int) at line 22
+Return Value:0
+
+  Start -- frame(1) int MidIntVal(int, int, int)
+  param: int address:0x7fffd5be74ac value:-10
+  param: int address:0x7fffd5be74a8 value:-50
+  param: int address:0x7fffd5be74a4 value:10
+  End frame(1)--int MidIntVal(int, int, int) at line 22
+Return Value:-10
+
+  Start -- frame(1) int MidIntVal(int, int, int)
+  param: int address:0x7fffd5be74ac value:-10
+  param: int address:0x7fffd5be74a8 value:-50
+  param: int address:0x7fffd5be74a4 value:-110
+  End frame(1)--int MidIntVal(int, int, int) at line 22
+Return Value:-50
+
+  Start -- frame(1) int MidIntVal(int, int, int)
+  param: int address:0x7fffd5be74ac value:175
+  param: int address:0x7fffd5be74a8 value:150
+  param: int address:0x7fffd5be74a4 value:160
+  End frame(1)--int MidIntVal(int, int, int) at line 22
+Return Value:160
+
+  Start -- frame(1) char MidCharVal(char, char, char)
+  param: char address:0x7fffd5be74ac value:f
+  param: char address:0x7fffd5be74a8 value:z
+  param: char address:0x7fffd5be74a4 value:a
+  End frame(1)--char MidCharVal(char, char, char) at line 41
+Return Value:f
+
+  Start -- frame(1) char MidCharVal(char, char, char)
+  param: char address:0x7fffd5be74ac value:b
+  param: char address:0x7fffd5be74a8 value:u
+  param: char address:0x7fffd5be74a4 value:x
+  End frame(1)--char MidCharVal(char, char, char) at line 41
+Return Value:u
+
+  Start -- frame(1) char MidCharVal(char, char, char)
+  param: char address:0x7fffd5be74ac value:c
+  param: char address:0x7fffd5be74a8 value:t
+  param: char address:0x7fffd5be74a4 value:h
+  End frame(1)--char MidCharVal(char, char, char) at line 41
+Return Value:h
+
+  Start -- frame(1) void MiddleInt(int&, int, int, int)
+  param: int*  address:0x7fffd5be759c points_to_value:0
+  param: int address:0x7fffd5be7414 value:100
+  param: int address:0x7fffd5be7410 value:50
+  param: int address:0x7fffd5be740c value:200
+  void MiddleInt(int&, int, int, int) at line 58  :assigning middle value: 100 to a
+  void MiddleInt(int&, int, int, int) at line 60  :middle value 100 assigned
+  End -- frame(1) void MiddleInt(int&, int, int, int)
+  param: int*  address:0x7fffd5be759c points_to_value:100
+  param: int address:0x7fffd5be7414 value:100
+  param: int address:0x7fffd5be7410 value:50
+  param: int address:0x7fffd5be740c value:200
+
+
+  Start -- frame(1) void MiddleInt(int&, int, int, int)
+  param: int*  address:0x7fffd5be759c points_to_value:0
+  param: int address:0x7fffd5be7414 value:60
+  param: int address:0x7fffd5be7410 value:75
+  param: int address:0x7fffd5be740c value:150
+  void MiddleInt(int&, int, int, int) at line 58  :assigning middle value: 75 to a
+  void MiddleInt(int&, int, int, int) at line 60  :middle value 75 assigned
+  End -- frame(1) void MiddleInt(int&, int, int, int)
+  param: int*  address:0x7fffd5be759c points_to_value:75
+  param: int address:0x7fffd5be7414 value:60
+  param: int address:0x7fffd5be7410 value:75
+  param: int address:0x7fffd5be740c value:150
+
+
+  Start -- frame(1) void MiddleInt(int&, int, int, int)
+  param: int*  address:0x7fffd5be759c points_to_value:0
+  param: int address:0x7fffd5be7414 value:100
+  param: int address:0x7fffd5be7410 value:250
+  param: int address:0x7fffd5be740c value:200
+  void MiddleInt(int&, int, int, int) at line 58  :assigning middle value: 200 to a
+  void MiddleInt(int&, int, int, int) at line 60  :middle value 200 assigned
+  End -- frame(1) void MiddleInt(int&, int, int, int)
+  param: int*  address:0x7fffd5be759c points_to_value:200
+  param: int address:0x7fffd5be7414 value:100
+  param: int address:0x7fffd5be7410 value:250
+  param: int address:0x7fffd5be740c value:200
+
+
+  Start -- frame(1) void MiddleChar(char&, char, char, char)
+  param: char*  address:0x7fffd5be759b points_to_value:’»
+  param: char address:0x7fffd5be7414 value:h
+  param: char address:0x7fffd5be7410 value:g
+  param: char address:0x7fffd5be740c value:i
+  void MiddleChar(char&, char, char, char) at line 77  :assigning middle char h to first parameter on
+  void MiddleChar(char&, char, char, char) at line 79  :middle char h assigned
+  End -- frame(1) void MiddleChar(char&, char, char, char)
+  param: char*  address:0x7fffd5be759b points_to_value:h»
+  param: char address:0x7fffd5be7414 value:h
+  param: char address:0x7fffd5be7410 value:g
+  param: char address:0x7fffd5be740c value:i
+
+
+  Start -- frame(1) void MiddleChar(char&, char, char, char)
+  param: char*  address:0x7fffd5be759b points_to_value:h»
+  param: char address:0x7fffd5be7414 value:b
+  param: char address:0x7fffd5be7410 value:f
+  param: char address:0x7fffd5be740c value:l
+  void MiddleChar(char&, char, char, char) at line 77  :assigning middle char f to first parameter on
+  void MiddleChar(char&, char, char, char) at line 79  :middle char f assigned
+  End -- frame(1) void MiddleChar(char&, char, char, char)
+  param: char*  address:0x7fffd5be759b points_to_value:f»
+  param: char address:0x7fffd5be7414 value:b
+  param: char address:0x7fffd5be7410 value:f
+  param: char address:0x7fffd5be740c value:l
+
+
+  Start -- frame(1) void MiddleChar(char&, char, char, char)
+  param: char*  address:0x7fffd5be759b points_to_value:f»
+  param: char address:0x7fffd5be7414 value:c
+  param: char address:0x7fffd5be7410 value:m
+  param: char address:0x7fffd5be740c value:k
+  void MiddleChar(char&, char, char, char) at line 77  :assigning middle char k to first parameter on
+  void MiddleChar(char&, char, char, char) at line 79  :middle char k assigned
+  End -- frame(1) void MiddleChar(char&, char, char, char)
+  param: char*  address:0x7fffd5be759b points_to_value:k»
+  param: char address:0x7fffd5be7414 value:c
+  param: char address:0x7fffd5be7410 value:m
+  param: char address:0x7fffd5be740c value:k
+
+
+  Start -- frame(1) int FiveSum(int, int, int, int, int)
+  param: int address:0x7fffd5be74bc value:200
+  param: int address:0x7fffd5be74b8 value:50
+  param: int address:0x7fffd5be74b4 value:30
+  param: int address:0x7fffd5be74b0 value:20
+  param: int address:0x7fffd5be74ac value:300
+  End frame(1)--int FiveSum(int, int, int, int, int) at line 88
+Return Value:600
+
+  Start -- frame(1) int FiveSum(int, int, int, int, int)
+  param: int address:0x7fffd5be74bc value:-50
+  param: int address:0x7fffd5be74b8 value:100
+  param: int address:0x7fffd5be74b4 value:-70
+  param: int address:0x7fffd5be74b0 value:-5
+  param: int address:0x7fffd5be74ac value:15
+  End frame(1)--int FiveSum(int, int, int, int, int) at line 88
+Return Value:-10
+
+  Start -- frame(1) int FiveSum(int, int, int, int, int)
+  param: int address:0x7fffd5be74bc value:-50
+  param: int address:0x7fffd5be74b8 value:100
+  param: int address:0x7fffd5be74b4 value:15
+  param: int address:0x7fffd5be74b0 value:3
+  param: int address:0x7fffd5be74ac value:2
+  End frame(1)--int FiveSum(int, int, int, int, int) at line 88
+Return Value:70
+
+  Start -- frame(1) void SortAscend(int&, int&, int&)
+  param: int*  address:0x7fffd5be7594 points_to_value:-5
+  param: int*  address:0x7fffd5be7590 points_to_value:10
+  param: int*  address:0x7fffd5be758c points_to_value:4
+  End -- frame(1) void SortAscend(int&, int&, int&)
+  param: int*  address:0x7fffd5be7594 points_to_value:-5
+  param: int*  address:0x7fffd5be7590 points_to_value:4
+  param: int*  address:0x7fffd5be758c points_to_value:10
+
+
+  Start -- frame(1) void SortAscend(int&, int&, int&)
+  param: int*  address:0x7fffd5be7594 points_to_value:5
+  param: int*  address:0x7fffd5be7590 points_to_value:-10
+  param: int*  address:0x7fffd5be758c points_to_value:-4
+  End -- frame(1) void SortAscend(int&, int&, int&)
+  param: int*  address:0x7fffd5be7594 points_to_value:-10
+  param: int*  address:0x7fffd5be7590 points_to_value:-4
+  param: int*  address:0x7fffd5be758c points_to_value:5
+
+
+  Start -- frame(1) void SortAscend(int&, int&, int&)
+  param: int*  address:0x7fffd5be7594 points_to_value:8
+  param: int*  address:0x7fffd5be7590 points_to_value:10
+  param: int*  address:0x7fffd5be758c points_to_value:-4
+  End -- frame(1) void SortAscend(int&, int&, int&)
+  param: int*  address:0x7fffd5be7594 points_to_value:-4
+  param: int*  address:0x7fffd5be7590 points_to_value:8
+  param: int*  address:0x7fffd5be758c points_to_value:10
+
+
+  Start -- frame(1) void SortDescend(int&, int&, int&)
+  param: int*  address:0x7fffd5be7594 points_to_value:-6
+  param: int*  address:0x7fffd5be7590 points_to_value:1
+  param: int*  address:0x7fffd5be758c points_to_value:10
+  void SortDescend(int&, int&, int&) at line 132  :preparing to switch values a(-6) and b(1)
+  void SortDescend(int&, int&, int&) at line 136  :values a and b switched
+  void SortDescend(int&, int&, int&) at line 140  :preparing to switch values b(-6) and c(10)
+  void SortDescend(int&, int&, int&) at line 144  :values b and c switched
+  void SortDescend(int&, int&, int&) at line 132  :preparing to switch values a(1) and b(10)
+  void SortDescend(int&, int&, int&) at line 136  :values a and b switched
+  End -- frame(1) void SortDescend(int&, int&, int&)
+  param: int*  address:0x7fffd5be7594 points_to_value:10
+  param: int*  address:0x7fffd5be7590 points_to_value:1
+  param: int*  address:0x7fffd5be758c points_to_value:-6
+
+
+  Start -- frame(1) void SortDescend(int&, int&, int&)
+  param: int*  address:0x7fffd5be7594 points_to_value:8
+  param: int*  address:0x7fffd5be7590 points_to_value:-9
+  param: int*  address:0x7fffd5be758c points_to_value:-1
+  void SortDescend(int&, int&, int&) at line 140  :preparing to switch values b(-9) and c(-1)
+  void SortDescend(int&, int&, int&) at line 144  :values b and c switched
+  End -- frame(1) void SortDescend(int&, int&, int&)
+  param: int*  address:0x7fffd5be7594 points_to_value:8
+  param: int*  address:0x7fffd5be7590 points_to_value:-1
+  param: int*  address:0x7fffd5be758c points_to_value:-9
+
+
+  Start -- frame(1) void SortDescend(int&, int&, int&)
+  param: int*  address:0x7fffd5be7594 points_to_value:6
+  param: int*  address:0x7fffd5be7590 points_to_value:55
+  param: int*  address:0x7fffd5be758c points_to_value:99
+  void SortDescend(int&, int&, int&) at line 132  :preparing to switch values a(6) and b(55)
+  void SortDescend(int&, int&, int&) at line 136  :values a and b switched
+  void SortDescend(int&, int&, int&) at line 140  :preparing to switch values b(6) and c(99)
+  void SortDescend(int&, int&, int&) at line 144  :values b and c switched
+  void SortDescend(int&, int&, int&) at line 132  :preparing to switch values a(55) and b(99)
+  void SortDescend(int&, int&, int&) at line 136  :values a and b switched
+  End -- frame(1) void SortDescend(int&, int&, int&)
+  param: int*  address:0x7fffd5be7594 points_to_value:99
+  param: int*  address:0x7fffd5be7590 points_to_value:55
+  param: int*  address:0x7fffd5be758c points_to_value:6
+
+

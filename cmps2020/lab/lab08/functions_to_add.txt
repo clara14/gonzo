@@ -1,0 +1,37 @@
+
+// private data members
+//publc functions
+
+
+    /*
+    compare two DynamicArray objects for equality
+    two objects are equal if
+      the capacity of both objects is the same
+      the arrays of the two objects contain the same values
+      to test the equality of the arrays it will require a for loop
+      to compare all the values
+    */
+    bool operator == (const DynamicArray & );
+
+
+    /*
+    copy all the elements in the array from the RHS object into LHS (this)  object
+
+    note if the capacity of the RHS is larger than the left you will need to re size the array of the LHS object
+    to do this: delete the dynamic arrray data, set data to a new array the same capacity as the right hand side Dynamic array
+    use a for loop to copy the elements from rhs.data to data
+
+    return the LHS object  ( *this )
+    */
+    DynamicArray & operator = (const DynamicArray & );
+
+    /*
+       returns a DynamicArray object that has all the elements of both the LHS (this) and the RHS objects
+       1. create a temporary DynamicArray object , its size will be the sum of the capacity of LHS + RHS
+       2. copy the values from LHS into the temp object
+       3. copy the values from RHS into the temp object
+       4. return the temp object
+    */
+    DynamicArray  operator + (const DynamicArray & );
+
+    

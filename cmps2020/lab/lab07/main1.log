@@ -1,0 +1,154 @@
+log file "main1.log" opened
+  Start -- frame(1) Computer::Computer(int, double, int, int, std::string)
+  param: int address:0x7ffff175cdf4 value:4
+  param: double address:0x7ffff175cde8 value:1.6
+  param: int address:0x7ffff175cdf0 value:500
+  param: int address:0x7ffff175cde4 value:4
+  param: std::string address:0x7ffff175cfd0 value:Pentium N3700
+  Computer::Computer(int, double, int, int, std::string) at line 22  :incrementing the count
+  End -- frame(1) Computer::Computer(int, double, int, int, std::string)
+  param: int address:0x7ffff175cdf4 value:4
+  param: double address:0x7ffff175cde8 value:1.6
+  param: int address:0x7ffff175cdf0 value:500
+  param: int address:0x7ffff175cde4 value:4
+  param: std::string address:0x7ffff175cfd0 value:Pentium N3700
+
+
+  Start -- frame(1) Computer::Computer(int, double, int, int, std::string)
+  param: int address:0x7ffff175cdf4 value:4
+  param: double address:0x7ffff175cde8 value:1.6
+  param: int address:0x7ffff175cdf0 value:1000
+  param: int address:0x7ffff175cde4 value:8
+  param: std::string address:0x7ffff175cfe0 value:Pentium N3700
+  Computer::Computer(int, double, int, int, std::string) at line 22  :incrementing the count
+  End -- frame(1) Computer::Computer(int, double, int, int, std::string)
+  param: int address:0x7ffff175cdf4 value:4
+  param: double address:0x7ffff175cde8 value:1.6
+  param: int address:0x7ffff175cdf0 value:1000
+  param: int address:0x7ffff175cde4 value:8
+  param: std::string address:0x7ffff175cfe0 value:Pentium N3700
+
+
+  Start -- frame(1) Computer::Computer(int, double, int, int, std::string)
+  param: int address:0x7ffff175cdf4 value:6
+  param: double address:0x7ffff175cde8 value:2.4
+  param: int address:0x7ffff175cdf0 value:2000
+  param: int address:0x7ffff175cde4 value:32
+  param: std::string address:0x7ffff175cff0 value:Xeon E5645
+  Computer::Computer(int, double, int, int, std::string) at line 22  :incrementing the count
+  End -- frame(1) Computer::Computer(int, double, int, int, std::string)
+  param: int address:0x7ffff175cdf4 value:6
+  param: double address:0x7ffff175cde8 value:2.4
+  param: int address:0x7ffff175cdf0 value:2000
+  param: int address:0x7ffff175cde4 value:32
+  param: std::string address:0x7ffff175cff0 value:Xeon E5645
+
+
+  Start -- frame(1) std::string Computer::ToString()
+  End frame(1)--std::string Computer::ToString() at line 65
+Return Value:1.6 Ghz Pentium N3700 4 Cores
+500 Gb disk
+4 Gb ram
+
+
+  Start -- frame(1) std::string Computer::ToString()
+  End frame(1)--std::string Computer::ToString() at line 65
+Return Value:1.6 Ghz Pentium N3700 4 Cores
+1000 Gb disk
+8 Gb ram
+
+
+  Start -- frame(1) std::string Computer::ToString()
+  End frame(1)--std::string Computer::ToString() at line 65
+Return Value:2.4 Ghz Xeon E5645 6 Cores
+2000 Gb disk
+32 Gb ram
+
+
+  Start -- frame(1) bool Greater(const Computer&, const Computer&)
+  param: Computer address:0x7ffff175cf70 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  param: Computer address:0x7ffff175cf90 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool Greater(const Computer&, const Computer&) at line 85
+Return Value:false
+
+  Start -- frame(1) bool Less(const Computer&, const Computer&)
+  param: Computer address:0x7ffff175cf70 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  param: Computer address:0x7ffff175cf90 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool Less(const Computer&, const Computer&) at line 102
+Return Value:false
+
+  Start -- frame(1) bool Equal(const Computer&, const Computer&)
+  param: Computer address:0x7ffff175cf70 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  param: Computer address:0x7ffff175cf90 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool Equal(const Computer&, const Computer&) at line 119
+Return Value:true
+
+  Start -- frame(1) bool Greater(const Computer&, const Computer&)
+  param: Computer address:0x7ffff175cf70 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  param: Computer address:0x7ffff175cfb0 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool Greater(const Computer&, const Computer&) at line 85
+Return Value:false
+
+  Start -- frame(1) bool Less(const Computer&, const Computer&)
+  param: Computer address:0x7ffff175cf70 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  param: Computer address:0x7ffff175cfb0 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool Less(const Computer&, const Computer&) at line 102
+Return Value:true
+
+  Start -- frame(1) bool Equal(const Computer&, const Computer&)
+  param: Computer address:0x7ffff175cf70 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  param: Computer address:0x7ffff175cfb0 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool Equal(const Computer&, const Computer&) at line 119
+Return Value:false
+
+  Start -- frame(1) bool Greater(const Computer&, const Computer&)
+  param: Computer address:0x7ffff175cfb0 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  param: Computer address:0x7ffff175cf70 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool Greater(const Computer&, const Computer&) at line 85
+Return Value:true
+
+  Start -- frame(1) bool Less(const Computer&, const Computer&)
+  param: Computer address:0x7ffff175cfb0 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  param: Computer address:0x7ffff175cf70 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool Less(const Computer&, const Computer&) at line 102
+Return Value:false
+
+  Start -- frame(1) bool Equal(const Computer&, const Computer&)
+  param: Computer address:0x7ffff175cfb0 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  param: Computer address:0x7ffff175cf70 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--bool Equal(const Computer&, const Computer&) at line 119
+Return Value:false
+
+  Start -- frame(1) Computer::~Computer()
+  Computer::~Computer() at line 51  :incrementing the count
+  End -- frame(1) Computer::~Computer()
+
+
+  Start -- frame(1) Computer::~Computer()
+  Computer::~Computer() at line 51  :incrementing the count
+  End -- frame(1) Computer::~Computer()
+
+
+  Start -- frame(1) Computer::~Computer()
+  Computer::~Computer() at line 51  :incrementing the count
+  End -- frame(1) Computer::~Computer()
+
+

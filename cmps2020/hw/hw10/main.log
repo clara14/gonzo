@@ -1,0 +1,81 @@
+log file "main.log" opened
+  Start -- frame(1) SLinkedList::SLinkedList()
+  End -- frame(1) SLinkedList::SLinkedList()
+
+
+  Start -- frame(1) std::string SLinkedList::ToString()
+  End frame(1)--std::string SLinkedList::ToString() at line 196
+Return Value:SLinkedList:
+head: 0
+
+
+  Start -- frame(1) bool SLinkedList::Insert(int, SListNode*)
+  param: int address:0x7ffd97c181d4 value:6
+  param: SListNode pointer*  address:0 points_to_value:nullptr
+    Start -- frame(2) SListNode* SLinkedList::createNode(int)
+    param: int address:0x7ffd97c180e4 value:6
+    End frame(2)--SListNode* SLinkedList::createNode(int) at line 24
+Return Value:unknown type <SListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool SLinkedList::Insert(int, SListNode*) at line 111
+Return Value:true
+
+  Start -- frame(1) std::string SLinkedList::ToString()
+  End frame(1)--std::string SLinkedList::ToString() at line 196
+Return Value:SLinkedList:
+head: 0x1f75700
+Node:
+Address: 0x1f75700 next: 0 value: 6
+
+
+  Start -- frame(1) bool SLinkedList::Insert(int, SListNode*)
+  param: int address:0x7ffd97c181d4 value:4
+  param: SListNode pointer*  address:0 points_to_value:nullptr
+    Start -- frame(2) SListNode* SLinkedList::createNode(int)
+    param: int address:0x7ffd97c180e4 value:4
+    End frame(2)--SListNode* SLinkedList::createNode(int) at line 24
+Return Value:unknown type <SListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool SLinkedList::Insert(int, SListNode*) at line 111
+Return Value:true
+
+  Start -- frame(1) std::string SLinkedList::ToString()
+  End frame(1)--std::string SLinkedList::ToString() at line 196
+Return Value:SLinkedList:
+head: 0x1f755c0
+Node:
+Address: 0x1f755c0 next: 0x1f75700 value: 4
+Node:
+Address: 0x1f75700 next: 0 value: 6
+
+
+  Start -- frame(1) bool SLinkedList::Insert(int, SListNode*)
+  param: int address:0x7ffd97c181d4 value:9
+  param: SListNode pointer*  address:0 points_to_value:nullptr
+    Start -- frame(2) SListNode* SLinkedList::createNode(int)
+    param: int address:0x7ffd97c180e4 value:9
+    End frame(2)--SListNode* SLinkedList::createNode(int) at line 24
+Return Value:unknown type <SListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--bool SLinkedList::Insert(int, SListNode*) at line 111
+Return Value:true
+
+  Start -- frame(1) std::string SLinkedList::ToString()
+  End frame(1)--std::string SLinkedList::ToString() at line 196
+Return Value:SLinkedList:
+head: 0x1f754a0
+Node:
+Address: 0x1f754a0 next: 0x1f755c0 value: 9
+Node:
+Address: 0x1f755c0 next: 0x1f75700 value: 4
+Node:
+Address: 0x1f75700 next: 0 value: 6
+
+
+  Start -- frame(1) SLinkedList::~SLinkedList()
+  End -- frame(1) SLinkedList::~SLinkedList()
+
+

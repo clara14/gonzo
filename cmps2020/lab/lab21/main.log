@@ -1,0 +1,107 @@
+log file "main.log" opened
+  Start--DLinkedList::DLinkedList()
+  End--DLinkedList::DLinkedList()
+
+
+  Start--bool DLinkedList::listInsert(int, DListNode*)
+  param: DListNode pointer*  address:0x2577010 points_to_value:unknown type <DListNode>, cant display value try converting it to a string or overoad ostream << 
+
+  param: DListNode pointer*  address:0 points_to_value:nullptr
+  param: int address:0x7ffc9d155df4 value:11
+    Start--DListNode* DLinkedList::createNode(int)
+    param: int address:0x7ffc9d155d04 value:11
+    End--DListNode* DLinkedList::createNode(int) at line 48
+Return Value:unknown type <DListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End--bool DLinkedList::listInsert(int, DListNode*) at line 131
+Return Value:true
+
+  Start--std::string DLinkedList::ToString()
+  End--std::string DLinkedList::ToString() at line 234
+Return Value:DLinkedList:
+head: 0x2577010
+tail: 0x2577030
+DListNode:
+prev: 0x2577010 next: 0x2577030 value: 11
+
+
+
+  Start--bool DLinkedList::listInsert(int, DListNode*)
+  param: DListNode pointer*  address:0x2577010 points_to_value:unknown type <DListNode>, cant display value try converting it to a string or overoad ostream << 
+
+  param: DListNode pointer*  address:0 points_to_value:nullptr
+  param: int address:0x7ffc9d155df4 value:22
+    Start--DListNode* DLinkedList::createNode(int)
+    param: int address:0x7ffc9d155d04 value:22
+    End--DListNode* DLinkedList::createNode(int) at line 48
+Return Value:unknown type <DListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End--bool DLinkedList::listInsert(int, DListNode*) at line 131
+Return Value:true
+
+  Start--bool DLinkedList::listInsert(int, DListNode*)
+  param: DListNode pointer*  address:0x2577010 points_to_value:unknown type <DListNode>, cant display value try converting it to a string or overoad ostream << 
+
+  param: DListNode pointer*  address:0 points_to_value:nullptr
+  param: int address:0x7ffc9d155df4 value:33
+    Start--DListNode* DLinkedList::createNode(int)
+    param: int address:0x7ffc9d155d04 value:33
+    End--DListNode* DLinkedList::createNode(int) at line 48
+Return Value:unknown type <DListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End--bool DLinkedList::listInsert(int, DListNode*) at line 131
+Return Value:true
+
+  Start--std::string DLinkedList::ToString()
+  End--std::string DLinkedList::ToString() at line 234
+Return Value:DLinkedList:
+head: 0x2577010
+tail: 0x2577030
+DListNode:
+prev: 0x2577010 next: 0x2577270 value: 33
+DListNode:
+prev: 0x2577410 next: 0x2577110 value: 22
+DListNode:
+prev: 0x2577270 next: 0x2577030 value: 11
+
+
+
+  Start--DListNode* DLinkedList::listSearch(int)
+  param: DListNode pointer*  address:0x2577010 points_to_value:unknown type <DListNode>, cant display value try converting it to a string or overoad ostream << 
+
+  param: int address:0x7ffc9d155e04 value:22
+  End--DListNode* DLinkedList::listSearch(int) at line 179
+Return Value:unknown type <DListNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start--bool DLinkedList::listDelete(DListNode*)
+  param: DListNode pointer*  address:0x2577270 points_to_value:unknown type <DListNode>, cant display value try converting it to a string or overoad ostream << 
+
+    Start--bool DLinkedList::empty()
+    End--bool DLinkedList::empty() at line 287
+Return Value:false
+
+  End--bool DLinkedList::listDelete(DListNode*) at line 160
+Return Value:true
+
+  Start--std::string DLinkedList::ToString()
+  End--std::string DLinkedList::ToString() at line 234
+Return Value:DLinkedList:
+head: 0x2577010
+tail: 0x2577030
+DListNode:
+prev: 0x2577010 next: 0x2577110 value: 33
+DListNode:
+prev: 0x2577410 next: 0x2577030 value: 11
+
+
+
+  Start--DLinkedList::~DLinkedList()
+  param: DListNode pointer*  address:0x2577010 points_to_value:unknown type <DListNode>, cant display value try converting it to a string or overoad ostream << 
+
+  End--DLinkedList::~DLinkedList()
+
+

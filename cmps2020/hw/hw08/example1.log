@@ -1,0 +1,73 @@
+log file "example1.log" opened
+  Start -- frame(1) Stack<T>::Stack(int) [with T = int]
+  End -- frame(1) Stack<T>::Stack(int) [with T = int]
+
+
+  Start -- frame(1) bool Stack<T>::Push(T) [with T = int]
+  param: int address:0x7fff3d071204 value:44
+    Start -- frame(2) bool Stack<T>::Full() [with T = int]
+    End frame(2)--bool Stack<T>::Full() [with T = int] at line 48
+Return Value:false
+
+  End frame(1)--bool Stack<T>::Push(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Stack<T>::Push(T) [with T = int]
+  param: int address:0x7fff3d071204 value:66
+    Start -- frame(2) bool Stack<T>::Full() [with T = int]
+    End frame(2)--bool Stack<T>::Full() [with T = int] at line 48
+Return Value:false
+
+  End frame(1)--bool Stack<T>::Push(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) bool Stack<T>::Push(T) [with T = int]
+  param: int address:0x7fff3d071204 value:77
+    Start -- frame(2) bool Stack<T>::Full() [with T = int]
+    End frame(2)--bool Stack<T>::Full() [with T = int] at line 48
+Return Value:false
+
+  End frame(1)--bool Stack<T>::Push(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) int Stack<T>::Capacity() [with T = int]
+  End frame(1)--int Stack<T>::Capacity() [with T = int] at line 113
+Return Value:4
+
+  Start -- frame(1) bool Stack<T>::Push(T) [with T = int]
+  param: int address:0x7fff3d071204 value:33
+    Start -- frame(2) bool Stack<T>::Full() [with T = int]
+    End frame(2)--bool Stack<T>::Full() [with T = int] at line 48
+Return Value:false
+
+  End frame(1)--bool Stack<T>::Push(T) [with T = int] at line 72
+Return Value:true
+
+  Start -- frame(1) int Stack<T>::Capacity() [with T = int]
+  End frame(1)--int Stack<T>::Capacity() [with T = int] at line 113
+Return Value:4
+
+  Start -- frame(1) std::string Stack<T>::ToString() [with T = int; std::string = std::basic_string<char>]
+    Start -- frame(2) bool Stack<T>::Full() [with T = int]
+    End frame(2)--bool Stack<T>::Full() [with T = int] at line 48
+Return Value:true
+
+    Start -- frame(2) bool Stack<T>::Empty() [with T = int]
+    End frame(2)--bool Stack<T>::Empty() [with T = int] at line 37
+Return Value:false
+
+    Start -- frame(2) int Stack<T>::Capacity() [with T = int]
+    End frame(2)--int Stack<T>::Capacity() [with T = int] at line 113
+Return Value:4
+
+  End frame(1)--std::string Stack<T>::ToString() [with T = int; std::string = std::basic_string<char>] at line 107
+Return Value:TopIndex: 3
+Capacity(): 4
+Empty(): false
+Full(): true
+
+
+  Start -- frame(1) Stack<T>::~Stack() [with T = int]
+  End -- frame(1) Stack<T>::~Stack() [with T = int]
+
+

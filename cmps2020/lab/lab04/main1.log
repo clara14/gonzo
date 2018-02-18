@@ -1,0 +1,33 @@
+log file "main1.log" opened
+  Start -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x7fff70bf0c20 points_to_value:0
+  param: int address:0x7fff70bf0ab4 value:20
+  End -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x7fff70bf0c20 points_to_value:0
+  param: int address:0x7fff70bf0ab4 value:20
+
+
+  Start -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x11d0010 points_to_value:0
+  param: int address:0x7fff70bf0ab4 value:20
+  End -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x11d0010 points_to_value:0
+  param: int address:0x7fff70bf0ab4 value:20
+
+
+  Start -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x7fff70bf0c20 points_to_value:0
+  param: int address:0x7fff70bf0ab4 value:20
+  End -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x7fff70bf0c20 points_to_value:0
+  param: int address:0x7fff70bf0ab4 value:20
+
+
+  Start -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x11d0010 points_to_value:0
+  param: int address:0x7fff70bf0ab4 value:20
+  End -- frame(1) void PrintArray(int*, int)
+  param: int*  address:0x11d0010 points_to_value:0
+  param: int address:0x7fff70bf0ab4 value:20
+
+

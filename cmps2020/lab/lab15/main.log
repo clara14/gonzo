@@ -1,0 +1,49 @@
+log file "main.log" opened
+  Start -- frame(1) void Demo<T>::setData(T) [with T = int]
+  param: int address:0x7ffd289273a4 value:99
+  End -- frame(1) void Demo<T>::setData(T) [with T = int]
+
+
+  Start -- frame(1) T Demo<T>::getData() [with T = int]
+  End frame(1)--T Demo<T>::getData() [with T = int] at line 15
+Return Value:99
+
+  Start -- frame(1) std::ostream& operator<<(std::ostream&, Demo<int>&)
+  param: std::ostream address:0x60e680 value:cant display value of std::ostream
+  param: Demo<int> address:0x7ffd28927540 value:unknown type <Demo<int>>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--std::ostream& operator<<(std::ostream&, Demo<int>&) at line 32
+Return Value:cant display value of std::ostream
+
+  Start -- frame(1) void Demo<T>::setData(T) [with T = double]
+  param: double address:0x7ffd289273a0 value:99.99
+  End -- frame(1) void Demo<T>::setData(T) [with T = double]
+
+
+  Start -- frame(1) T Demo<T>::getData() [with T = double]
+  End frame(1)--T Demo<T>::getData() [with T = double] at line 15
+Return Value:99.99
+
+  Start -- frame(1) std::ostream& operator<<(std::ostream&, Demo<double>&)
+  param: std::ostream address:0x60e680 value:cant display value of std::ostream
+  param: Demo<double> address:0x7ffd28927530 value:unknown type <Demo<double>>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--std::ostream& operator<<(std::ostream&, Demo<double>&) at line 32
+Return Value:cant display value of std::ostream
+
+  Start -- frame(1) void Demo<T>::setData(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7ffd28927550 value:monkey
+  End -- frame(1) void Demo<T>::setData(T) [with T = std::basic_string<char>]
+
+
+  Start -- frame(1) T Demo<T>::getData() [with T = std::basic_string<char>]
+  End frame(1)--T Demo<T>::getData() [with T = std::basic_string<char>] at line 15
+Return Value:monkey
+
+  Start -- frame(1) std::ostream& operator<<(std::ostream&, Demo<std::basic_string<char> >&)
+  param: std::ostream address:0x60e680 value:cant display value of std::ostream
+  param: Demo<std::string> address:0x7ffd28927520 value:unknown type <Demo<std::string>>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--std::ostream& operator<<(std::ostream&, Demo<std::basic_string<char> >&) at line 32
+Return Value:cant display value of std::ostream
+

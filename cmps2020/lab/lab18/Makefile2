@@ -1,0 +1,30 @@
+# Start of the actual Makefile
+COMP = g++
+FLAGS = -Wall -std=c++11
+
+
+
+all:	string_dynamic_array.o int_dynamic_array.o runme1 runme2
+
+clean:
+		rm  -f  *.log *.gch  *.o runme1 runme2
+
+
+runme1:	main1.cpp string_dynamic_array.o   
+	$(COMP) $(FLAGS) -o runme1 main1.cpp string_dynamic_array.o
+
+runme2: main2.cpp int_dynamic_array.o
+	$(COMP) $(FLAGS) -o runme2 main2.cpp int_dynamic_array.o
+
+string_dynamic_array.o: DynamicArray.cpp DynamicArray.h
+	$(COMP) $(FLAGS) -c -o string_dynamic_array.o -D ELEMTYPE=string DynamicArray.cpp
+
+int_dynamic_array.o: DynamicArray.cpp DynamicArray.h
+	$(COMP) $(FLAGS) -c -o int_dynamic_array.o -D ELEMTYPE=int DynamicArray.cpp
+
+
+# DO NOT DELETE THIS LINE -- make depend depends on it.
+
+
+
+

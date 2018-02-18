@@ -1,0 +1,53 @@
+log file "example2.log" opened
+  Start -- frame(1) bool OddOrEven(int)
+  param: int address:0x7ffedfd1d96c value:34
+  End frame(1)--bool OddOrEven(int) at line 17
+Return Value:false
+
+  Start -- frame(1) int Larger(int, int, int)
+  param: int address:0x7ffedfd1d96c value:5
+  param: int address:0x7ffedfd1d968 value:10
+  param: int address:0x7ffedfd1d964 value:15
+  End frame(1)--int Larger(int, int, int) at line 52
+Return Value:15
+
+  Start -- frame(1) int Larger(int, int, int)
+  param: int address:0x7ffedfd1d96c value:4
+  param: int address:0x7ffedfd1d968 value:2
+  param: int address:0x7ffedfd1d964 value:3
+  End frame(1)--int Larger(int, int, int) at line 52
+Return Value:4
+
+  Start -- frame(1) int Factorial(int)
+  param: int address:0x7ffedfd1d96c value:4
+    Start -- frame(2) int Factorial(int)
+    param: int address:0x7ffedfd1d88c value:3
+      Start -- frame(3) int Factorial(int)
+      param: int address:0x7ffedfd1d7ac value:2
+        Start -- frame(4) int Factorial(int)
+        param: int address:0x7ffedfd1d6cc value:1
+          Start -- frame(5) int Factorial(int)
+          param: int address:0x7ffedfd1d5ec value:0
+          End frame(5)--int Factorial(int) at line 35
+Return Value:1
+
+        End frame(4)--int Factorial(int) at line 35
+Return Value:1
+
+      End frame(3)--int Factorial(int) at line 35
+Return Value:1
+
+    End frame(2)--int Factorial(int) at line 35
+Return Value:1
+
+  End frame(1)--int Factorial(int) at line 35
+Return Value:1
+
+  Start -- frame(1) bool OddOrEven(int)
+  param: int address:0x7ffedfd1d96c value:1
+  End frame(1)--bool OddOrEven(int) at line 17
+Return Value:true
+
+End frame(0)--int main() at line 68
+Return Value:0
+

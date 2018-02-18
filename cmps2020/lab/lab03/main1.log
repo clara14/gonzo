@@ -1,0 +1,60 @@
+log file "main1.log" opened
+  Start -- frame(1) int TripleIntPBV(int)
+  param: int address:0x7ffeb2afc12c value:7
+  End frame(1)--int TripleIntPBV(int) at line 10
+Return Value:21
+
+  Start -- frame(1) void TripleIntPBP(int*)
+  param: int*  address:0x7ffeb2afc1fc points_to_value:6
+  End -- frame(1) void TripleIntPBP(int*)
+  param: int*  address:0x7ffeb2afc1fc points_to_value:18
+
+
+  Start -- frame(1) void TripleIntPBR(int&)
+  param: int address:0x7ffeb2afc1fc value:-5
+  End -- frame(1) void TripleIntPBR(int&)
+  param: int address:0x7ffeb2afc1fc value:-15
+
+
+  Start -- frame(1) void SwapIntsPBR(int&, int&)
+  param: int address:0x7ffeb2afc1fc value:25
+  param: int address:0x7ffeb2afc1f8 value:-4
+  End -- frame(1) void SwapIntsPBR(int&, int&)
+  param: int address:0x7ffeb2afc1fc value:-4
+  param: int address:0x7ffeb2afc1f8 value:25
+
+
+  Start -- frame(1) void SwapIntsPBP(int*, int*)
+  param: int*  address:0x7ffeb2afc1fc points_to_value:6
+  param: int*  address:0x7ffeb2afc1f8 points_to_value:100
+  End -- frame(1) void SwapIntsPBP(int*, int*)
+  param: int*  address:0x7ffeb2afc1fc points_to_value:100
+  param: int*  address:0x7ffeb2afc1f8 points_to_value:6
+
+
+  Start -- frame(1) int getLargerInt(int, int)
+  param: int address:0x7ffeb2afc12c value:80
+  param: int address:0x7ffeb2afc128 value:79
+  End frame(1)--int getLargerInt(int, int) at line 46
+Return Value:80
+
+  Start -- frame(1) void setLargerIntPBR(int, int, int&)
+  param: int address:0x7ffeb2afc08c value:3
+  param: int address:0x7ffeb2afc088 value:7
+  param: int*  address:0x7ffeb2afc1f4 points_to_value:0
+  End -- frame(1) void setLargerIntPBR(int, int, int&)
+  param: int address:0x7ffeb2afc08c value:3
+  param: int address:0x7ffeb2afc088 value:7
+  param: int address:0x7ffeb2afc1f4 value:7
+
+
+  Start -- frame(1) void setLargerIntPBP(int, int, int*)
+  param: int address:0x7ffeb2afc08c value:-8
+  param: int address:0x7ffeb2afc088 value:-1
+  param: int*  address:0x7ffeb2afc1f4 points_to_value:7
+  End -- frame(1) void setLargerIntPBP(int, int, int*)
+  param: int address:0x7ffeb2afc08c value:-8
+  param: int address:0x7ffeb2afc088 value:-1
+  param: int*  address:0x7ffeb2afc1f4 points_to_value:-1
+
+

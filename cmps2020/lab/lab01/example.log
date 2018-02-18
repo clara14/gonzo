@@ -1,0 +1,804 @@
+log file "example.log" opened
+  Start -- frame(1) void FillArrayWithRandom(int*, int, int, int)
+  param: int address:0x7fff866e7e00 value:725871085
+  param: int address:0x7fff866e7c94 value:100
+  param: int address:0x7fff866e7c90 value:1
+  param: int address:0x7fff866e7c8c value:250
+  End -- frame(1) void FillArrayWithRandom(int*, int, int, int)
+  param: int address:0x7fff866e7e00 value:162
+  param: int address:0x7fff866e7c94 value:100
+  param: int address:0x7fff866e7c90 value:1
+  param: int address:0x7fff866e7c8c value:250
+
+
+int main() at line 20  :FillArrayWithRandom is created
+  Start -- frame(1) void SortArray(int*, int, bool)
+  param: int address:0x7fff866e7e00 value:162
+  param: int address:0x7fff866e7c84 value:100
+  param: bool address:0x7fff866e7c80 value:false
+  void SortArray(int*, int, bool) at line 16  :NumOfValuesSwappedThisPass set to 1
+  void SortArray(int*, int, bool) at line 18  :Num of passes is 0
+  void SortArray(int*, int, bool) at line 22  :while values swapped this pass is not equal to 0, we begin this: 
+  void SortArray(int*, int, bool) at line 25  :values are incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   162 and 159 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 0 and 1 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   162 and 146 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 1 and 2 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   162 and 17 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 2 and 3 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   162 and 154 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 3 and 4 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   162 and 3 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 4 and 5 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   162 and 87 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 5 and 6 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   162 and 119 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 6 and 7 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   162 and 9 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 7 and 8 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   233 and 159 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 9 and 10 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   233 and 158 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 10 and 11 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   233 and 75 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 11 and 12 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 165 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 13 and 14 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 118 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 15 and 16 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 134 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 16 and 17 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 116 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 17 and 18 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 33 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 18 and 19 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 60 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 19 and 20 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 66 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 20 and 21 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 177 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 21 and 22 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 24 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 22 and 23 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 199 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 23 and 24 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 74 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 24 and 25 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 72 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 25 and 26 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 23 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 26 and 27 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 181 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 27 and 28 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 151 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 28 and 29 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 208 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 29 and 30 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 20 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 30 and 31 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 209 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 31 and 32 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 7 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 32 and 33 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 58 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 33 and 34 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 51 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 34 and 35 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 77 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 35 and 36 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 43 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 36 and 37 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 18 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 37 and 38 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 69 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 38 and 39 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 154 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 39 and 40 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 33 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 40 and 41 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 116 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 41 and 42 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 221 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 42 and 43 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 103 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 43 and 44 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 96 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 45 and 46 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 51 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 46 and 47 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 55 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 47 and 48 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 49 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 48 and 49 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 120 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 49 and 50 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 166 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 50 and 51 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 160 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 51 and 52 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 58 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 52 and 53 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 214 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 53 and 54 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 186 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 54 and 55 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 243 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 55 and 56 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 35 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 56 and 57 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 86 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 57 and 58 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 44 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 58 and 59 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 91 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 59 and 60 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 105 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 60 and 61 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 146 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 61 and 62 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 240 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 62 and 63 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 16 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 63 and 64 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 110 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 64 and 65 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 8 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 65 and 66 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 63 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 66 and 67 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 209 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 67 and 68 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 216 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 68 and 69 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 210 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 69 and 70 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 57 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 70 and 71 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 204 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 71 and 72 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 65 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 72 and 73 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 58 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 73 and 74 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 77 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 74 and 75 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 19 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 75 and 76 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 20 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 76 and 77 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 221 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 77 and 78 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 160 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 78 and 79 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 102 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 79 and 80 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 222 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 80 and 81 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 80 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 81 and 82 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 220 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 82 and 83 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 135 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 83 and 84 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 31 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 84 and 85 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 2 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 85 and 86 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 35 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 86 and 87 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 191 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 87 and 88 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 44 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 88 and 89 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 93 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 89 and 90 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 169 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 90 and 91 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 41 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 91 and 92 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 95 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 92 and 93 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 28 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 93 and 94 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 77 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 94 and 95 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 70 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 95 and 96 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 22 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 96 and 97 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 81 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 97 and 98 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   249 and 153 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 98 and 99 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 22  :while values swapped this pass is not equal to 0, we begin this: 
+  void SortArray(int*, int, bool) at line 25  :values are incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   159 and 146 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 0 and 1 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   159 and 17 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 1 and 2 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   159 and 154 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 2 and 3 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   159 and 3 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 3 and 4 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   159 and 87 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 4 and 5 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   159 and 119 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 5 and 6 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   159 and 9 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 6 and 7 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   162 and 159 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 8 and 9 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   162 and 158 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 9 and 10 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   162 and 75 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 10 and 11 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   233 and 165 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 12 and 13 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 118 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 14 and 15 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 134 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 15 and 16 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 116 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 16 and 17 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 33 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 17 and 18 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 60 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 18 and 19 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 66 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 19 and 20 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 177 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 20 and 21 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 24 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 21 and 22 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 199 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 22 and 23 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 74 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 23 and 24 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 72 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 24 and 25 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 23 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 25 and 26 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 181 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 26 and 27 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 151 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 27 and 28 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 208 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 28 and 29 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 20 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 29 and 30 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 209 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 30 and 31 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 7 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 31 and 32 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 58 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 32 and 33 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 51 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 33 and 34 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 77 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 34 and 35 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 43 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 35 and 36 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 18 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 36 and 37 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 69 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 37 and 38 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 154 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 38 and 39 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 33 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 39 and 40 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 116 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 40 and 41 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 221 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 41 and 42 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   238 and 103 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 42 and 43 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 96 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 44 and 45 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 51 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 45 and 46 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 55 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 46 and 47 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 49 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 47 and 48 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 120 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 48 and 49 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 166 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 49 and 50 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 160 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 50 and 51 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 58 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 51 and 52 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 214 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 52 and 53 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 186 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 53 and 54 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 243 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 54 and 55 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 35 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 55 and 56 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 86 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 56 and 57 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 44 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 57 and 58 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 91 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 58 and 59 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 105 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 59 and 60 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 146 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 60 and 61 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 240 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 61 and 62 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 16 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 62 and 63 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 110 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 63 and 64 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 8 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 64 and 65 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 63 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 65 and 66 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 209 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 66 and 67 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 216 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 67 and 68 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 210 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 68 and 69 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 57 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 69 and 70 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 204 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 70 and 71 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 65 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 71 and 72 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 58 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 72 and 73 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 77 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 73 and 74 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 19 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 74 and 75 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 20 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 75 and 76 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 221 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 76 and 77 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 160 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 77 and 78 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 102 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 78 and 79 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 222 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 79 and 80 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 80 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 80 and 81 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 220 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 81 and 82 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 135 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 82 and 83 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 31 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 83 and 84 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 2 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 84 and 85 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 35 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 85 and 86 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 191 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 86 and 87 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 44 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 87 and 88 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 93 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 88 and 89 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 169 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 89 and 90 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 41 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 90 and 91 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 95 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 91 and 92 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 28 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 92 and 93 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 77 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 93 and 94 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 70 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 94 and 95 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 22 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 95 and 96 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 81 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 96 and 97 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   246 and 153 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 97 and 98 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 22  :while values swapped this pass is not equal to 0, we begin this: 
+  void SortArray(int*, int, bool) at line 25  :values are incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   146 and 17 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 0 and 1 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   154 and 3 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 2 and 3 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   154 and 87 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 3 and 4 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   154 and 119 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 4 and 5 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   154 and 9 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 5 and 6 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   159 and 158 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 8 and 9 

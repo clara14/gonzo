@@ -1,0 +1,131 @@
+log file "main.log" opened
+  Start -- frame(1) int menu()
+    Start -- frame(2) void getInt(int&, const char*)
+    param: int address:0x7fff55885ebc value:0
+    param: char pointer*  address:0x407b1f points_to_value: 
+    End -- frame(2) void getInt(int&, const char*)
+    param: int address:0x7fff55885ebc value:1
+    param: char pointer*  address:0x407b1f points_to_value: 
+  End frame(1)--int menu() at line 131
+Return Value:1
+
+  Start -- frame(1) void getInt(int&, const char*)
+  param: int address:0x7fff55886f5c value:0
+  param: char pointer*  address:0x4077f6 points_to_value:E
+  End -- frame(1) void getInt(int&, const char*)
+  param: int address:0x7fff55886f5c value:88
+  param: char pointer*  address:0x4077f6 points_to_value:E
+
+
+  Start -- frame(1) int HashTable::hash1(int)
+  param: int address:0x7fff55885e84 value:88
+  End frame(1)--int HashTable::hash1(int) at line 12
+Return Value:88
+
+  Start -- frame(1) int menu()
+    Start -- frame(2) void getInt(int&, const char*)
+    param: int address:0x7fff55885ebc value:32721
+    param: char pointer*  address:0x407b1f points_to_value: 
+    End -- frame(2) void getInt(int&, const char*)
+    param: int address:0x7fff55885ebc value:1
+    param: char pointer*  address:0x407b1f points_to_value: 
+  End frame(1)--int menu() at line 131
+Return Value:1
+
+  Start -- frame(1) void getInt(int&, const char*)
+  param: int address:0x7fff55886f5c value:88
+  param: char pointer*  address:0x4077f6 points_to_value:E
+  End -- frame(1) void getInt(int&, const char*)
+  param: int address:0x7fff55886f5c value:77
+  param: char pointer*  address:0x4077f6 points_to_value:E
+
+
+  Start -- frame(1) int HashTable::hash1(int)
+  param: int address:0x7fff55885e84 value:77
+  End frame(1)--int HashTable::hash1(int) at line 12
+Return Value:77
+
+  Start -- frame(1) int menu()
+    Start -- frame(2) void getInt(int&, const char*)
+    param: int address:0x7fff55885ebc value:32721
+    param: char pointer*  address:0x407b1f points_to_value: 
+    End -- frame(2) void getInt(int&, const char*)
+    param: int address:0x7fff55885ebc value:1
+    param: char pointer*  address:0x407b1f points_to_value: 
+  End frame(1)--int menu() at line 131
+Return Value:1
+
+  Start -- frame(1) void getInt(int&, const char*)
+  param: int address:0x7fff55886f5c value:77
+  param: char pointer*  address:0x4077f6 points_to_value:E
+  End -- frame(1) void getInt(int&, const char*)
+  param: int address:0x7fff55886f5c value:99
+  param: char pointer*  address:0x4077f6 points_to_value:E
+
+
+  Start -- frame(1) int HashTable::hash1(int)
+  param: int address:0x7fff55885e84 value:99
+  End frame(1)--int HashTable::hash1(int) at line 12
+Return Value:99
+
+  Start -- frame(1) int menu()
+    Start -- frame(2) void getInt(int&, const char*)
+    param: int address:0x7fff55885ebc value:32721
+    param: char pointer*  address:0x407b1f points_to_value: 
+    End -- frame(2) void getInt(int&, const char*)
+    param: int address:0x7fff55885ebc value:5
+    param: char pointer*  address:0x407b1f points_to_value: 
+  End frame(1)--int menu() at line 131
+Return Value:5
+
+  Start -- frame(1) std::string HashTable::ToString()
+    Start -- frame(2) int HashTable::hash2(int)
+    param: int address:0x7fff55885c64 value:77
+    End frame(2)--int HashTable::hash2(int) at line 24
+Return Value:936
+
+    Start -- frame(2) int HashTable::hash1(int)
+    param: int address:0x7fff55885c64 value:77
+    End frame(2)--int HashTable::hash1(int) at line 12
+Return Value:77
+
+    Start -- frame(2) int HashTable::hash2(int)
+    param: int address:0x7fff55885c64 value:88
+    End frame(2)--int HashTable::hash2(int) at line 24
+Return Value:925
+
+    Start -- frame(2) int HashTable::hash1(int)
+    param: int address:0x7fff55885c64 value:88
+    End frame(2)--int HashTable::hash1(int) at line 12
+Return Value:88
+
+    Start -- frame(2) int HashTable::hash2(int)
+    param: int address:0x7fff55885c64 value:99
+    End frame(2)--int HashTable::hash2(int) at line 24
+Return Value:914
+
+    Start -- frame(2) int HashTable::hash1(int)
+    param: int address:0x7fff55885c64 value:99
+    End frame(2)--int HashTable::hash1(int) at line 12
+Return Value:99
+
+  End frame(1)--std::string HashTable::ToString() at line 53
+Return Value:
+Hashtable:
+hash size: 1013
+count: 3
+hashtable[   77] 		contains:         77 	hash1=         77 	hash2=      936
+hashtable[   88] 		contains:         88 	hash1=         88 	hash2=      925
+hashtable[   99] 		contains:         99 	hash1=         99 	hash2=      914
+
+
+  Start -- frame(1) int menu()
+    Start -- frame(2) void getInt(int&, const char*)
+    param: int address:0x7fff55885ebc value:0
+    param: char pointer*  address:0x407b1f points_to_value: 
+    End -- frame(2) void getInt(int&, const char*)
+    param: int address:0x7fff55885ebc value:0
+    param: char pointer*  address:0x407b1f points_to_value: 
+  End frame(1)--int menu() at line 131
+Return Value:0
+

@@ -1,0 +1,189 @@
+
+          Hash Table Menu
+  ===================================
+  1. Insert an integer into the table
+  2. Delete an integer from the table
+  3. Search the table for an integer 
+  4. Print the primary and secondary 
+     keys for an integer             
+  5. Print HashTable                 
+                                     
+  0. Exit                            
+  ===================================
+  Enter selection: 
+Enter an integer: Inserting 44 into the hash table.
+44 inserted successfully.
+
+          Hash Table Menu
+  ===================================
+  1. Insert an integer into the table
+  2. Delete an integer from the table
+  3. Search the table for an integer 
+  4. Print the primary and secondary 
+     keys for an integer             
+  5. Print HashTable                 
+                                     
+  0. Exit                            
+  ===================================
+  Enter selection: 
+Enter an integer: Inserting 44 into the hash table.
+44 inserted successfully.
+
+          Hash Table Menu
+  ===================================
+  1. Insert an integer into the table
+  2. Delete an integer from the table
+  3. Search the table for an integer 
+  4. Print the primary and secondary 
+     keys for an integer             
+  5. Print HashTable                 
+                                     
+  0. Exit                            
+  ===================================
+  Enter selection: 
+Enter an integer: Inserting 44 into the hash table.
+44 inserted successfully.
+
+          Hash Table Menu
+  ===================================
+  1. Insert an integer into the table
+  2. Delete an integer from the table
+  3. Search the table for an integer 
+  4. Print the primary and secondary 
+     keys for an integer             
+  5. Print HashTable                 
+                                     
+  0. Exit                            
+  ===================================
+  Enter selection: 
+Enter an integer: Deleting 44 from the hash table.
+44 removed from the table.
+
+          Hash Table Menu
+  ===================================
+  1. Insert an integer into the table
+  2. Delete an integer from the table
+  3. Search the table for an integer 
+  4. Print the primary and secondary 
+     keys for an integer             
+  5. Print HashTable                 
+                                     
+  0. Exit                            
+  ===================================
+  Enter selection: 
+Enter an integer: Inserting 55 into the hash table.
+55 inserted successfully.
+
+          Hash Table Menu
+  ===================================
+  1. Insert an integer into the table
+  2. Delete an integer from the table
+  3. Search the table for an integer 
+  4. Print the primary and secondary 
+     keys for an integer             
+  5. Print HashTable                 
+                                     
+  0. Exit                            
+  ===================================
+  Enter selection: 
+Enter an integer: Inserting 55 into the hash table.
+55 inserted successfully.
+
+          Hash Table Menu
+  ===================================
+  1. Insert an integer into the table
+  2. Delete an integer from the table
+  3. Search the table for an integer 
+  4. Print the primary and secondary 
+     keys for an integer             
+  5. Print HashTable                 
+                                     
+  0. Exit                            
+  ===================================
+  Enter selection: 
+Enter an integer: Inserting 66 into the hash table.
+66 inserted successfully.
+
+          Hash Table Menu
+  ===================================
+  1. Insert an integer into the table
+  2. Delete an integer from the table
+  3. Search the table for an integer 
+  4. Print the primary and secondary 
+     keys for an integer             
+  5. Print HashTable                 
+                                     
+  0. Exit                            
+  ===================================
+  Enter selection: 
+Enter an integer: Inserting 66 into the hash table.
+66 inserted successfully.
+
+          Hash Table Menu
+  ===================================
+  1. Insert an integer into the table
+  2. Delete an integer from the table
+  3. Search the table for an integer 
+  4. Print the primary and secondary 
+     keys for an integer             
+  5. Print HashTable                 
+                                     
+  0. Exit                            
+  ===================================
+  Enter selection: 
+Enter an integer: Deleting 66 from the hash table.
+66 removed from the table.
+
+          Hash Table Menu
+  ===================================
+  1. Insert an integer into the table
+  2. Delete an integer from the table
+  3. Search the table for an integer 
+  4. Print the primary and secondary 
+     keys for an integer             
+  5. Print HashTable                 
+                                     
+  0. Exit                            
+  ===================================
+  Enter selection: 
+Enter an integer: Deleting 66 from the hash table.
+66 removed from the table.
+
+          Hash Table Menu
+  ===================================
+  1. Insert an integer into the table
+  2. Delete an integer from the table
+  3. Search the table for an integer 
+  4. Print the primary and secondary 
+     keys for an integer             
+  5. Print HashTable                 
+                                     
+  0. Exit                            
+  ===================================
+  Enter selection: 
+HashTable:
+hash size:1013
+count:4
+hashtable[  44] contains:DELETED_VALUE
+hashtable[  55] contains:        55 hash1=        55  hash2=       958
+hashtable[  66] contains:DELETED_VALUE
+hashtable[ 947] contains:DELETED_VALUE
+hashtable[ 958] contains:        55 hash1=        55  hash2=       958
+hashtable[ 969] contains:        44 hash1=        44  hash2=       969
+hashtable[ 970] contains:        44 hash1=        44  hash2=       969
+
+
+
+          Hash Table Menu
+  ===================================
+  1. Insert an integer into the table
+  2. Delete an integer from the table
+  3. Search the table for an integer 
+  4. Print the primary and secondary 
+     keys for an integer             
+  5. Print HashTable                 
+                                     
+  0. Exit                            
+  ===================================
+  Enter selection: 
+Good-bye!

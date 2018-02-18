@@ -1,0 +1,304 @@
+log file "main1.log" opened
+  Start -- frame(1) ArrayStack::ArrayStack()
+  End -- frame(1) ArrayStack::ArrayStack()
+
+
+  Start -- frame(1) bool ArrayStack::Empty()
+  End frame(1)--bool ArrayStack::Empty() at line 59
+Return Value:true
+
+  Start -- frame(1) bool ArrayStack::Full()
+  End frame(1)--bool ArrayStack::Full() at line 81
+Return Value:false
+
+  Start -- frame(1) bool ArrayStack::Push(int)
+  param: int address:0x7ffd4c862c44 value:5
+    Start -- frame(2) bool ArrayStack::Full()
+    End frame(2)--bool ArrayStack::Full() at line 81
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Push(int) at line 102
+Return Value:true
+
+  Start -- frame(1) bool ArrayStack::Push(int)
+  param: int address:0x7ffd4c862c44 value:6
+    Start -- frame(2) bool ArrayStack::Full()
+    End frame(2)--bool ArrayStack::Full() at line 81
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Push(int) at line 102
+Return Value:true
+
+  Start -- frame(1) bool ArrayStack::Push(int)
+  param: int address:0x7ffd4c862c44 value:7
+    Start -- frame(2) bool ArrayStack::Full()
+    End frame(2)--bool ArrayStack::Full() at line 81
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Push(int) at line 102
+Return Value:true
+
+  Start -- frame(1) bool ArrayStack::Push(int)
+  param: int address:0x7ffd4c862c44 value:8
+    Start -- frame(2) bool ArrayStack::Full()
+    End frame(2)--bool ArrayStack::Full() at line 81
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Push(int) at line 102
+Return Value:true
+
+  Start -- frame(1) bool ArrayStack::Push(int)
+  param: int address:0x7ffd4c862c44 value:9
+    Start -- frame(2) bool ArrayStack::Full()
+    End frame(2)--bool ArrayStack::Full() at line 81
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Push(int) at line 102
+Return Value:true
+
+  Start -- frame(1) bool ArrayStack::Push(int)
+  param: int address:0x7ffd4c862c44 value:10
+    Start -- frame(2) bool ArrayStack::Full()
+    End frame(2)--bool ArrayStack::Full() at line 81
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Push(int) at line 102
+Return Value:true
+
+  Start -- frame(1) bool ArrayStack::Push(int)
+  param: int address:0x7ffd4c862c44 value:11
+    Start -- frame(2) bool ArrayStack::Full()
+    End frame(2)--bool ArrayStack::Full() at line 81
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Push(int) at line 102
+Return Value:true
+
+  Start -- frame(1) bool ArrayStack::Push(int)
+  param: int address:0x7ffd4c862c44 value:12
+    Start -- frame(2) bool ArrayStack::Full()
+    End frame(2)--bool ArrayStack::Full() at line 81
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Push(int) at line 102
+Return Value:true
+
+  Start -- frame(1) bool ArrayStack::Push(int)
+  param: int address:0x7ffd4c862c44 value:13
+    Start -- frame(2) bool ArrayStack::Full()
+    End frame(2)--bool ArrayStack::Full() at line 81
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Push(int) at line 102
+Return Value:true
+
+  Start -- frame(1) bool ArrayStack::Push(int)
+  param: int address:0x7ffd4c862c44 value:14
+    Start -- frame(2) bool ArrayStack::Full()
+    End frame(2)--bool ArrayStack::Full() at line 81
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Push(int) at line 102
+Return Value:true
+
+  Start -- frame(1) bool ArrayStack::Empty()
+  End frame(1)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  Start -- frame(1) bool ArrayStack::Full()
+  End frame(1)--bool ArrayStack::Full() at line 81
+Return Value:true
+
+  Start -- frame(1) bool ArrayStack::Push(int)
+  param: int address:0x7ffd4c862c44 value:15
+    Start -- frame(2) bool ArrayStack::Full()
+    End frame(2)--bool ArrayStack::Full() at line 81
+Return Value:true
+
+  End frame(1)--bool ArrayStack::Push(int) at line 102
+Return Value:false
+
+  Start -- frame(1) int ArrayStack::Top()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--int ArrayStack::Top() at line 141
+Return Value:14
+
+  Start -- frame(1) bool ArrayStack::Pop()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Pop() at line 121
+Return Value:true
+
+  Start -- frame(1) int ArrayStack::Top()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--int ArrayStack::Top() at line 141
+Return Value:13
+
+  Start -- frame(1) bool ArrayStack::Pop()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Pop() at line 121
+Return Value:true
+
+  Start -- frame(1) int ArrayStack::Top()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--int ArrayStack::Top() at line 141
+Return Value:12
+
+  Start -- frame(1) bool ArrayStack::Pop()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Pop() at line 121
+Return Value:true
+
+  Start -- frame(1) int ArrayStack::Top()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--int ArrayStack::Top() at line 141
+Return Value:11
+
+  Start -- frame(1) bool ArrayStack::Pop()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Pop() at line 121
+Return Value:true
+
+  Start -- frame(1) int ArrayStack::Top()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--int ArrayStack::Top() at line 141
+Return Value:10
+
+  Start -- frame(1) bool ArrayStack::Pop()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Pop() at line 121
+Return Value:true
+
+  Start -- frame(1) int ArrayStack::Top()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--int ArrayStack::Top() at line 141
+Return Value:9
+
+  Start -- frame(1) bool ArrayStack::Pop()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Pop() at line 121
+Return Value:true
+
+  Start -- frame(1) int ArrayStack::Top()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--int ArrayStack::Top() at line 141
+Return Value:8
+
+  Start -- frame(1) bool ArrayStack::Pop()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Pop() at line 121
+Return Value:true
+
+  Start -- frame(1) int ArrayStack::Top()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--int ArrayStack::Top() at line 141
+Return Value:7
+
+  Start -- frame(1) bool ArrayStack::Pop()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Pop() at line 121
+Return Value:true
+
+  Start -- frame(1) int ArrayStack::Top()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--int ArrayStack::Top() at line 141
+Return Value:6
+
+  Start -- frame(1) bool ArrayStack::Pop()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Pop() at line 121
+Return Value:true
+
+  Start -- frame(1) int ArrayStack::Top()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--int ArrayStack::Top() at line 141
+Return Value:5
+
+  Start -- frame(1) bool ArrayStack::Pop()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:false
+
+  End frame(1)--bool ArrayStack::Pop() at line 121
+Return Value:true
+
+  Start -- frame(1) bool ArrayStack::Empty()
+  End frame(1)--bool ArrayStack::Empty() at line 59
+Return Value:true
+
+  Start -- frame(1) bool ArrayStack::Full()
+  End frame(1)--bool ArrayStack::Full() at line 81
+Return Value:false
+
+  Start -- frame(1) int ArrayStack::Top()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:true
+
+  End frame(1)--int ArrayStack::Top() at line 141
+Return Value:0
+
+  Start -- frame(1) bool ArrayStack::Pop()
+    Start -- frame(2) bool ArrayStack::Empty()
+    End frame(2)--bool ArrayStack::Empty() at line 59
+Return Value:true
+
+  End frame(1)--bool ArrayStack::Pop() at line 121
+Return Value:false
+

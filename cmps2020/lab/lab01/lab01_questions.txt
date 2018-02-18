@@ -1,0 +1,108 @@
+when you run the application what is the first function called ?   paste the output from the log marking the start of this function
+Start -- frame(1) void FillArrayWithRandom(int*, int, int, int)
+
+
+did the first function called reach the end?  paste the output from the log marking the end of this function
+End -- frame(1) void FillArrayWithRandom(int*, int, int, int)
+
+
+
+
+
+
+
+what is the last function executed? paste the output from the log marking the start of this function
+
+Start -- frame(1) void SortArray(int*, int, bool)
+
+
+
+
+does it end? if so paste the output from the log indicating that it ended
+
+
+The void function SortArray did not end.
+
+
+
+
+what line of code is being executed when the segmentation fault occurs? paste it below
+Line 32
+SwapValues(data[Loop],data[Loop+1]);
+
+
+
+
+describe in a paragraph , in detail how you have used the logging to determine what function the problem occurred in and how you were able to 
+narrow it down to the exact line that the problem occurred on.
+
+Each function contained a LogStart and LogEnd to log if and when a function was succesfully started and completed. The function SortArray started, yet it 
+never finished. Once I knew that SortArray was the location of the problem, I logged the if loop nested within the for loop in function SortArray. Values 
+kept swapping within the for loop until they were at 250 and 249 at array indexes 98 and 99. I also put a LogLow after the values are supposed to be swapped.This log was never reached after preparing to swap values at indexes 98 and 99.   
+
+
+
+
+
+
+
+Paste the output from you logs on multiple exectution of the program ( last 5 lines or so ) that show  a pattern leading up to the segmentation fault
+for example   "As you can see from the output from running the program 4 times when this exact condititon ************  is true the segmentation fault occours " or 
+ "At line 45 of main() if the pointer tmpPtr is null the program will cause a segementation fault, if is is set to a valid object it works properly, you can see this in the following ouput"
+
+The output shown from executing the program shows a pattern before the segmentation fault occurs. 
+
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   250 and 115 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 97 and 98 
+  void SortArray(int*, int, bool) at line 33  :values swapped
+  void SortArray(int*, int, bool) at line 35  :NumOfValuesSwappedThisPass incremented
+  void SortArray(int*, int, bool) at line 30  :Prepairing to swap 2 values   250 and 249 
+  void SortArray(int*, int, bool) at line 31  :Prepairing to swap 2 values  at postion 98 and 99 
+
+The segmentation fault occurs before the values are successfully swapped again.
+
+
+ 
+
+
+---------------------------------------------------------------
+run example2 , look at the logs 
+
+list all the functions called , in the order that they are called.
+Start -- frame(1) bool OddOrEven(int)
+Start -- frame(1) int Larger(int, int, int)
+Start -- frame(1) int Larger(int, int, int)
+Start -- frame(1) int Factorial(int)
+Start -- frame(2) int Factorial(int)
+ Start -- frame(3) int Factorial(int)
+Start -- frame(4) int Factorial(int)
+ Start -- frame(5) int Factorial(int)
+Start -- frame(1) bool OddOrEven(int)
+List the function name, the values of the parameters and the value returned.
+OddorEven(34)  Return: false
+Larger(5,10,15) Return: 15
+Larger(4,2,3)  Return: 4
+Factorial(4)  Return:1
+Factorial(3)  Return:1
+Factorial(2)  Return:1
+Factorial(1)  Return:1
+Factorial(0)  Return:1
+OddorEven(1)  Return: True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,369 @@
+log file "example1.log" opened
+  Start -- frame(1) Queue::Queue()
+  End -- frame(1) Queue::Queue()
+
+
+  Start -- frame(1) std::string Queue::ToString()
+    Start -- frame(2) bool Queue::full()
+      Start -- frame(3) bool Queue::empty()
+      End frame(3)--bool Queue::empty() at line 75
+Return Value:true
+
+      Start -- frame(3) int Queue::size()
+      End frame(3)--int Queue::size() at line 39
+Return Value:0
+
+      Start -- frame(3) int Queue::size()
+      End frame(3)--int Queue::size() at line 39
+Return Value:0
+
+    End frame(2)--std::string Queue::ToString() at line 205
+Return Value:backIndex: 0
+size(): 0
+empty(): 1
+full(): 0
+
+
+    Start -- frame(2) bool Queue::enQueue(int)
+    param: int address:0x7ffd9bdf24c4 value:5
+      Start -- frame(3) bool Queue::full()
+      End frame(3)--bool Queue::enQueue(int) at line 114
+Return Value:true
+
+      Start -- frame(3) bool Queue::enQueue(int)
+      param: int address:0x7ffd9bdf24c4 value:10
+        Start -- frame(4) bool Queue::full()
+        End frame(4)--bool Queue::enQueue(int) at line 114
+Return Value:true
+
+        Start -- frame(4) bool Queue::enQueue(int)
+        param: int address:0x7ffd9bdf24c4 value:15
+          Start -- frame(5) bool Queue::full()
+          End frame(5)--bool Queue::enQueue(int) at line 114
+Return Value:true
+
+          Start -- frame(5) bool Queue::enQueue(int)
+          param: int address:0x7ffd9bdf24c4 value:25
+            Start -- frame(6) bool Queue::full()
+            End frame(6)--bool Queue::enQueue(int) at line 114
+Return Value:true
+
+            Start -- frame(6) std::string Queue::ToString()
+              Start -- frame(7) bool Queue::full()
+                Start -- frame(8) bool Queue::empty()
+                End frame(8)--bool Queue::empty() at line 75
+Return Value:false
+
+                Start -- frame(8) int Queue::size()
+                End frame(8)--int Queue::size() at line 39
+Return Value:4
+
+                Start -- frame(8) int Queue::size()
+                End frame(8)--int Queue::size() at line 39
+Return Value:4
+
+                Start -- frame(8) int Queue::size()
+                End frame(8)--int Queue::size() at line 39
+Return Value:4
+
+                Start -- frame(8) int Queue::size()
+                End frame(8)--int Queue::size() at line 39
+Return Value:4
+
+                Start -- frame(8) int Queue::size()
+                End frame(8)--int Queue::size() at line 39
+Return Value:4
+
+                Start -- frame(8) int Queue::size()
+                End frame(8)--int Queue::size() at line 39
+Return Value:4
+
+              End frame(7)--std::string Queue::ToString() at line 205
+Return Value:backIndex: 4
+size(): 4
+empty(): 0
+full(): 0
+data[0]: address: 0x7ffd9bdf2590 value: 5
+data[1]: address: 0x7ffd9bdf2594 value: 10
+data[2]: address: 0x7ffd9bdf2598 value: 15
+data[3]: address: 0x7ffd9bdf259c value: 25
+
+
+              Start -- frame(7) bool Queue::enQueue(int)
+              param: int address:0x7ffd9bdf24c4 value:30
+                Start -- frame(8) bool Queue::full()
+                End frame(8)--bool Queue::enQueue(int) at line 114
+Return Value:true
+
+                Start -- frame(8) bool Queue::enQueue(int)
+                param: int address:0x7ffd9bdf24c4 value:35
+                  Start -- frame(9) bool Queue::full()
+                  End frame(9)--bool Queue::enQueue(int) at line 105
+Return Value:false
+
+                  Start -- frame(9) bool Queue::enQueue(int)
+                  param: int address:0x7ffd9bdf24c4 value:40
+                    Start -- frame(10) bool Queue::full()
+                    End frame(10)--bool Queue::enQueue(int) at line 105
+Return Value:false
+
+                    Start -- frame(10) bool Queue::enQueue(int)
+                    param: int address:0x7ffd9bdf24c4 value:45
+                      Start -- frame(11) bool Queue::full()
+                      End frame(11)--bool Queue::enQueue(int) at line 105
+Return Value:false
+
+                      Start -- frame(11) std::string Queue::ToString()
+                        Start -- frame(12) bool Queue::full()
+                          Start -- frame(13) bool Queue::empty()
+                          End frame(13)--bool Queue::empty() at line 75
+Return Value:false
+
+                          Start -- frame(13) int Queue::size()
+                          End frame(13)--int Queue::size() at line 39
+Return Value:5
+
+                          Start -- frame(13) int Queue::size()
+                          End frame(13)--int Queue::size() at line 39
+Return Value:5
+
+                          Start -- frame(13) int Queue::size()
+                          End frame(13)--int Queue::size() at line 39
+Return Value:5
+
+                          Start -- frame(13) int Queue::size()
+                          End frame(13)--int Queue::size() at line 39
+Return Value:5
+
+                          Start -- frame(13) int Queue::size()
+                          End frame(13)--int Queue::size() at line 39
+Return Value:5
+
+                          Start -- frame(13) int Queue::size()
+                          End frame(13)--int Queue::size() at line 39
+Return Value:5
+
+                          Start -- frame(13) int Queue::size()
+                          End frame(13)--int Queue::size() at line 39
+Return Value:5
+
+                        End frame(12)--std::string Queue::ToString() at line 205
+Return Value:backIndex: 5
+size(): 5
+empty(): 0
+full(): 1
+data[0]: address: 0x7ffd9bdf2590 value: 5
+data[1]: address: 0x7ffd9bdf2594 value: 10
+data[2]: address: 0x7ffd9bdf2598 value: 15
+data[3]: address: 0x7ffd9bdf259c value: 25
+data[4]: address: 0x7ffd9bdf25a0 value: 30
+
+
+                        Start -- frame(12) int Queue::peekFront()
+                          Start -- frame(13) bool Queue::empty()
+                          End frame(13)--bool Queue::empty() at line 75
+Return Value:false
+
+                        End frame(12)--int Queue::peekFront() at line 171
+Return Value:5
+
+                        Start -- frame(12) bool Queue::deQueue()
+                          Start -- frame(13) bool Queue::empty()
+                          End frame(13)--bool Queue::empty() at line 75
+Return Value:false
+
+                        End frame(12)--bool Queue::deQueue() at line 148
+Return Value:true
+
+                        Start -- frame(12) std::string Queue::ToString()
+                          Start -- frame(13) bool Queue::full()
+                            Start -- frame(14) bool Queue::empty()
+                            End frame(14)--bool Queue::empty() at line 75
+Return Value:false
+
+                            Start -- frame(14) int Queue::size()
+                            End frame(14)--int Queue::size() at line 39
+Return Value:4
+
+                            Start -- frame(14) int Queue::size()
+                            End frame(14)--int Queue::size() at line 39
+Return Value:4
+
+                            Start -- frame(14) int Queue::size()
+                            End frame(14)--int Queue::size() at line 39
+Return Value:4
+
+                            Start -- frame(14) int Queue::size()
+                            End frame(14)--int Queue::size() at line 39
+Return Value:4
+
+                            Start -- frame(14) int Queue::size()
+                            End frame(14)--int Queue::size() at line 39
+Return Value:4
+
+                            Start -- frame(14) int Queue::size()
+                            End frame(14)--int Queue::size() at line 39
+Return Value:4
+
+                          End frame(13)--std::string Queue::ToString() at line 205
+Return Value:backIndex: 4
+size(): 4
+empty(): 0
+full(): 0
+data[0]: address: 0x7ffd9bdf2590 value: 10
+data[1]: address: 0x7ffd9bdf2594 value: 15
+data[2]: address: 0x7ffd9bdf2598 value: 25
+data[3]: address: 0x7ffd9bdf259c value: 30
+
+
+                          Start -- frame(13) int Queue::peekFront()
+                            Start -- frame(14) bool Queue::empty()
+                            End frame(14)--bool Queue::empty() at line 75
+Return Value:false
+
+                          End frame(13)--int Queue::peekFront() at line 171
+Return Value:10
+
+                          Start -- frame(13) bool Queue::deQueue()
+                            Start -- frame(14) bool Queue::empty()
+                            End frame(14)--bool Queue::empty() at line 75
+Return Value:false
+
+                          End frame(13)--bool Queue::deQueue() at line 148
+Return Value:true
+
+                          Start -- frame(13) std::string Queue::ToString()
+                            Start -- frame(14) bool Queue::full()
+                              Start -- frame(15) bool Queue::empty()
+                              End frame(15)--bool Queue::empty() at line 75
+Return Value:false
+
+                              Start -- frame(15) int Queue::size()
+                              End frame(15)--int Queue::size() at line 39
+Return Value:3
+
+                              Start -- frame(15) int Queue::size()
+                              End frame(15)--int Queue::size() at line 39
+Return Value:3
+
+                              Start -- frame(15) int Queue::size()
+                              End frame(15)--int Queue::size() at line 39
+Return Value:3
+
+                              Start -- frame(15) int Queue::size()
+                              End frame(15)--int Queue::size() at line 39
+Return Value:3
+
+                              Start -- frame(15) int Queue::size()
+                              End frame(15)--int Queue::size() at line 39
+Return Value:3
+
+                            End frame(14)--std::string Queue::ToString() at line 205
+Return Value:backIndex: 3
+size(): 3
+empty(): 0
+full(): 0
+data[0]: address: 0x7ffd9bdf2590 value: 15
+data[1]: address: 0x7ffd9bdf2594 value: 25
+data[2]: address: 0x7ffd9bdf2598 value: 30
+
+
+                            Start -- frame(14) int Queue::peekFront()
+                              Start -- frame(15) bool Queue::empty()
+                              End frame(15)--bool Queue::empty() at line 75
+Return Value:false
+
+                            End frame(14)--int Queue::peekFront() at line 171
+Return Value:15
+
+                            Start -- frame(14) bool Queue::deQueue()
+                              Start -- frame(15) bool Queue::empty()
+                              End frame(15)--bool Queue::empty() at line 75
+Return Value:false
+
+                            End frame(14)--bool Queue::deQueue() at line 148
+Return Value:true
+
+                            Start -- frame(14) std::string Queue::ToString()
+                              Start -- frame(15) bool Queue::full()
+                                Start -- frame(16) bool Queue::empty()
+                                End frame(16)--bool Queue::empty() at line 75
+Return Value:false
+
+                                Start -- frame(16) int Queue::size()
+                                End frame(16)--int Queue::size() at line 39
+Return Value:2
+
+                                Start -- frame(16) int Queue::size()
+                                End frame(16)--int Queue::size() at line 39
+Return Value:2
+
+                                Start -- frame(16) int Queue::size()
+                                End frame(16)--int Queue::size() at line 39
+Return Value:2
+
+                                Start -- frame(16) int Queue::size()
+                                End frame(16)--int Queue::size() at line 39
+Return Value:2
+
+                              End frame(15)--std::string Queue::ToString() at line 205
+Return Value:backIndex: 2
+size(): 2
+empty(): 0
+full(): 0
+data[0]: address: 0x7ffd9bdf2590 value: 25
+data[1]: address: 0x7ffd9bdf2594 value: 30
+
+
+                              Start -- frame(15) int Queue::peekFront()
+                                Start -- frame(16) bool Queue::empty()
+                                End frame(16)--bool Queue::empty() at line 75
+Return Value:false
+
+                              End frame(15)--int Queue::peekFront() at line 171
+Return Value:25
+
+                              Start -- frame(15) bool Queue::deQueue()
+                                Start -- frame(16) bool Queue::empty()
+                                End frame(16)--bool Queue::empty() at line 75
+Return Value:false
+
+                              End frame(15)--bool Queue::deQueue() at line 148
+Return Value:true
+
+                              Start -- frame(15) std::string Queue::ToString()
+                                Start -- frame(16) bool Queue::full()
+                                  Start -- frame(17) bool Queue::empty()
+                                  End frame(17)--bool Queue::empty() at line 75
+Return Value:false
+
+                                  Start -- frame(17) int Queue::size()
+                                  End frame(17)--int Queue::size() at line 39
+Return Value:1
+
+                                  Start -- frame(17) int Queue::size()
+                                  End frame(17)--int Queue::size() at line 39
+Return Value:1
+
+                                  Start -- frame(17) int Queue::size()
+                                  End frame(17)--int Queue::size() at line 39
+Return Value:1
+
+                                End frame(16)--std::string Queue::ToString() at line 205
+Return Value:backIndex: 1
+size(): 1
+empty(): 0
+full(): 0
+data[0]: address: 0x7ffd9bdf2590 value: 30
+
+
+                                Start -- frame(16) int Queue::peekFront()
+                                  Start -- frame(17) bool Queue::empty()
+                                  End frame(17)--bool Queue::empty() at line 75
+Return Value:false
+
+                                End frame(16)--int Queue::peekFront() at line 171
+Return Value:30
+
+                                Start -- frame(16) Queue::~Queue()
+                                End -- frame(16) Queue::~Queue()

@@ -1,0 +1,80 @@
+log file "main1.log" opened
+  Start -- frame(1) DLinkedList<T>::DLinkedList() [with T = int]
+  End -- frame(1) DLinkedList<T>::DLinkedList() [with T = int]
+
+
+  Start -- frame(1) std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>]
+  End frame(1)--std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>] at line 262
+Return Value:DLinkedList:
+head: 0x2186010
+tail: 0x2186030
+
+
+
+  Start -- frame(1) DListNode<T>* DLinkedList<T>::createNode(T) [with T = int]
+  param: int address:0x7ffdf43ebb04 value:55
+  End frame(1)--DListNode<T>* DLinkedList<T>::createNode(T) [with T = int] at line 86
+Return Value:unknown type <DListNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+End frame(0)--bool DLinkedList<T>::Insert(T, DListNode<T>*) [with T = int] at line 136
+Return Value:true
+
+  Start -- frame(0) std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>]
+  End frame(0)--std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>] at line 262
+Return Value:DLinkedList:
+head: 0x2186010
+tail: 0x2186030
+DListNode<T>:
+address: 0x2186680 prev: 0x2186010 next: 0x2186030 value: 55
+
+
+
+  Start -- frame(0) DListNode<T>* DLinkedList<T>::createNode(T) [with T = int]
+  param: int address:0x7ffdf43ebb04 value:5
+  End frame(0)--DListNode<T>* DLinkedList<T>::createNode(T) [with T = int] at line 86
+Return Value:unknown type <DListNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+End frame(-1)--bool DLinkedList<T>::Insert(T, DListNode<T>*) [with T = int] at line 136
+Return Value:true
+
+  Start -- frame(-1) std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>]
+  End frame(-1)--std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>] at line 262
+Return Value:DLinkedList:
+head: 0x2186010
+tail: 0x2186030
+DListNode<T>:
+address: 0x2186070 prev: 0x2186010 next: 0x2186680 value: 5
+DListNode<T>:
+address: 0x2186680 prev: 0x2186070 next: 0x2186030 value: 55
+
+
+
+  Start -- frame(-1) DListNode<T>* DLinkedList<T>::createNode(T) [with T = int]
+  param: int address:0x7ffdf43ebb04 value:7
+  End frame(-1)--DListNode<T>* DLinkedList<T>::createNode(T) [with T = int] at line 86
+Return Value:unknown type <DListNode<int>*>, cant display value try converting it to a string or overoad ostream << 
+
+
+End frame(-2)--bool DLinkedList<T>::Insert(T, DListNode<T>*) [with T = int] at line 136
+Return Value:true
+
+  Start -- frame(-2) std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>]
+  End frame(-2)--std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>] at line 262
+Return Value:DLinkedList:
+head: 0x2186010
+tail: 0x2186030
+DListNode<T>:
+address: 0x2186620 prev: 0x2186010 next: 0x2186070 value: 7
+DListNode<T>:
+address: 0x2186070 prev: 0x2186620 next: 0x2186680 value: 5
+DListNode<T>:
+address: 0x2186680 prev: 0x2186070 next: 0x2186030 value: 55
+
+
+
+  Start -- frame(-2) DLinkedList<T>::~DLinkedList() [with T = int]
+  End -- frame(-2) DLinkedList<T>::~DLinkedList() [with T = int]
+
+

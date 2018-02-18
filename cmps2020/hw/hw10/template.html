@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas 
+id="myCanvas" 
+width="800px" 
+height="1000px" 
+style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+function loadAndDrawImage(url, x, y)
+{
+    var image = new Image();
+    image.onload = function()
+    {
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.drawImage(image,x,y);
+    }
+    image.src = url;
+}
+
+
+
+  function fillRoundedRect(x, y, w, h, r)
+  {
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.moveTo(x+r, y);
+        ctx.lineTo(x+w-r, y);
+        ctx.quadraticCurveTo(x+w, y, x+w, y+r);
+        ctx.lineTo(x+w, y+h-r);
+        ctx.quadraticCurveTo(x+w, y+h, x+w-r, y+h);
+        ctx.lineTo(x+r, y+h);
+        ctx.quadraticCurveTo(x, y+h, x, y+h-r);
+        ctx.lineTo(x, y+r);
+        ctx.quadraticCurveTo(x, y, x+r, y);
+        ctx.stroke();        
+    }
+
+
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "60px Arial;";
+__JAVASCRIPT__
+
+</script>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,829 @@
+log file "main.log" opened
+  Start -- frame(1) T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffd90a063bc value:2
+  param: int address:0x7ffd90a063b8 value:3
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 59
+Return Value:3
+
+  Start -- frame(1) T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffd90a063bc value:3
+  param: int address:0x7ffd90a063b8 value:2
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 54
+Return Value:3
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffd90a063bc value:2
+  param: int address:0x7ffd90a063b8 value:3
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 71
+Return Value:2
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffd90a063bc value:3
+  param: int address:0x7ffd90a063b8 value:2
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 76
+Return Value:2
+
+  Start -- frame(1) T GetLarger(T, T, T) [with T = int]
+  param: int address:0x7ffd90a063bc value:1
+  param: int address:0x7ffd90a063b8 value:2
+  param: int address:0x7ffd90a063b4 value:3
+    Start -- frame(2) T GetLarger(T, T) [with T = int]
+    param: int address:0x7ffd90a062ec value:2
+    param: int address:0x7ffd90a062e8 value:3
+    End frame(2)--T GetLarger(T, T) [with T = int] at line 59
+Return Value:3
+
+    Start -- frame(2) T GetLarger(T, T) [with T = int]
+    param: int address:0x7ffd90a062ec value:1
+    param: int address:0x7ffd90a062e8 value:3
+    End frame(2)--T GetLarger(T, T) [with T = int] at line 59
+Return Value:3
+
+  End frame(1)--T GetLarger(T, T, T) [with T = int] at line 90
+Return Value:3
+
+  Start -- frame(1) T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffd90a062ec value:2
+  param: int address:0x7ffd90a062e8 value:3
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 59
+Return Value:3
+
+  Start -- frame(1) T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffd90a062ec value:1
+  param: int address:0x7ffd90a062e8 value:3
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 59
+Return Value:3
+
+  Start -- frame(1) T GetLarger(T, T, T) [with T = int]
+  param: int address:0x7ffd90a063bc value:2
+  param: int address:0x7ffd90a063b8 value:3
+  param: int address:0x7ffd90a063b4 value:1
+    Start -- frame(2) T GetLarger(T, T) [with T = int]
+    param: int address:0x7ffd90a062ec value:3
+    param: int address:0x7ffd90a062e8 value:1
+    End frame(2)--T GetLarger(T, T) [with T = int] at line 54
+Return Value:3
+
+    Start -- frame(2) T GetLarger(T, T) [with T = int]
+    param: int address:0x7ffd90a062ec value:2
+    param: int address:0x7ffd90a062e8 value:3
+    End frame(2)--T GetLarger(T, T) [with T = int] at line 59
+Return Value:3
+
+  End frame(1)--T GetLarger(T, T, T) [with T = int] at line 90
+Return Value:3
+
+  Start -- frame(1) T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffd90a062ec value:3
+  param: int address:0x7ffd90a062e8 value:1
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 54
+Return Value:3
+
+  Start -- frame(1) T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffd90a062ec value:2
+  param: int address:0x7ffd90a062e8 value:3
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 59
+Return Value:3
+
+  Start -- frame(1) T GetLarger(T, T, T) [with T = int]
+  param: int address:0x7ffd90a063bc value:3
+  param: int address:0x7ffd90a063b8 value:2
+  param: int address:0x7ffd90a063b4 value:1
+    Start -- frame(2) T GetLarger(T, T) [with T = int]
+    param: int address:0x7ffd90a062ec value:2
+    param: int address:0x7ffd90a062e8 value:1
+    End frame(2)--T GetLarger(T, T) [with T = int] at line 54
+Return Value:2
+
+    Start -- frame(2) T GetLarger(T, T) [with T = int]
+    param: int address:0x7ffd90a062ec value:3
+    param: int address:0x7ffd90a062e8 value:2
+    End frame(2)--T GetLarger(T, T) [with T = int] at line 54
+Return Value:3
+
+  End frame(1)--T GetLarger(T, T, T) [with T = int] at line 90
+Return Value:3
+
+  Start -- frame(1) T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffd90a062ec value:2
+  param: int address:0x7ffd90a062e8 value:1
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 54
+Return Value:2
+
+  Start -- frame(1) T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffd90a062ec value:3
+  param: int address:0x7ffd90a062e8 value:2
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 54
+Return Value:3
+
+  Start -- frame(1) T GetSmaller(T, T, T) [with T = int]
+  param: int address:0x7ffd90a063bc value:1
+  param: int address:0x7ffd90a063b8 value:2
+  param: int address:0x7ffd90a063b4 value:3
+    Start -- frame(2) T GetSmaller(T, T) [with T = int]
+    param: int address:0x7ffd90a062ec value:2
+    param: int address:0x7ffd90a062e8 value:3
+    End frame(2)--T GetSmaller(T, T) [with T = int] at line 71
+Return Value:2
+
+    Start -- frame(2) T GetSmaller(T, T) [with T = int]
+    param: int address:0x7ffd90a062ec value:1
+    param: int address:0x7ffd90a062e8 value:2
+    End frame(2)--T GetSmaller(T, T) [with T = int] at line 71
+Return Value:1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = int] at line 103
+Return Value:1
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffd90a062ec value:2
+  param: int address:0x7ffd90a062e8 value:3
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 71
+Return Value:2
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffd90a062ec value:1
+  param: int address:0x7ffd90a062e8 value:2
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 71
+Return Value:1
+
+  Start -- frame(1) T GetSmaller(T, T, T) [with T = int]
+  param: int address:0x7ffd90a063bc value:2
+  param: int address:0x7ffd90a063b8 value:3
+  param: int address:0x7ffd90a063b4 value:1
+    Start -- frame(2) T GetSmaller(T, T) [with T = int]
+    param: int address:0x7ffd90a062ec value:3
+    param: int address:0x7ffd90a062e8 value:1
+    End frame(2)--T GetSmaller(T, T) [with T = int] at line 76
+Return Value:1
+
+    Start -- frame(2) T GetSmaller(T, T) [with T = int]
+    param: int address:0x7ffd90a062ec value:2
+    param: int address:0x7ffd90a062e8 value:1
+    End frame(2)--T GetSmaller(T, T) [with T = int] at line 76
+Return Value:1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = int] at line 103
+Return Value:1
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffd90a062ec value:3
+  param: int address:0x7ffd90a062e8 value:1
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 76
+Return Value:1
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffd90a062ec value:2
+  param: int address:0x7ffd90a062e8 value:1
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 76
+Return Value:1
+
+  Start -- frame(1) T GetSmaller(T, T, T) [with T = int]
+  param: int address:0x7ffd90a063bc value:3
+  param: int address:0x7ffd90a063b8 value:2
+  param: int address:0x7ffd90a063b4 value:1
+    Start -- frame(2) T GetSmaller(T, T) [with T = int]
+    param: int address:0x7ffd90a062ec value:2
+    param: int address:0x7ffd90a062e8 value:1
+    End frame(2)--T GetSmaller(T, T) [with T = int] at line 76
+Return Value:1
+
+    Start -- frame(2) T GetSmaller(T, T) [with T = int]
+    param: int address:0x7ffd90a062ec value:3
+    param: int address:0x7ffd90a062e8 value:1
+    End frame(2)--T GetSmaller(T, T) [with T = int] at line 76
+Return Value:1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = int] at line 103
+Return Value:1
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffd90a062ec value:2
+  param: int address:0x7ffd90a062e8 value:1
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 76
+Return Value:1
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffd90a062ec value:3
+  param: int address:0x7ffd90a062e8 value:1
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 76
+Return Value:1
+
+int main() at line 26  :
+
+
+Testing with type double  Start -- frame(1) T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffd90a063b8 value:2.2
+  param: double address:0x7ffd90a063b0 value:3.3
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 59
+Return Value:3.3
+
+  Start -- frame(1) T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffd90a063b8 value:3.3
+  param: double address:0x7ffd90a063b0 value:2.2
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 54
+Return Value:3.3
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffd90a063b8 value:2.2
+  param: double address:0x7ffd90a063b0 value:3.3
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 71
+Return Value:2.2
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffd90a063b8 value:3.3
+  param: double address:0x7ffd90a063b0 value:2.2
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 76
+Return Value:2.2
+
+  Start -- frame(1) T GetLarger(T, T, T) [with T = double]
+  param: double address:0x7ffd90a063b8 value:1.1
+  param: double address:0x7ffd90a063b0 value:2.2
+  param: double address:0x7ffd90a063a8 value:3.3
+    Start -- frame(2) T GetLarger(T, T) [with T = double]
+    param: double address:0x7ffd90a062d8 value:2.2
+    param: double address:0x7ffd90a062d0 value:3.3
+    End frame(2)--T GetLarger(T, T) [with T = double] at line 59
+Return Value:3.3
+
+    Start -- frame(2) T GetLarger(T, T) [with T = double]
+    param: double address:0x7ffd90a062d8 value:1.1
+    param: double address:0x7ffd90a062d0 value:3.3
+    End frame(2)--T GetLarger(T, T) [with T = double] at line 59
+Return Value:3.3
+
+  End frame(1)--T GetLarger(T, T, T) [with T = double] at line 90
+Return Value:3.3
+
+  Start -- frame(1) T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffd90a062d8 value:2.2
+  param: double address:0x7ffd90a062d0 value:3.3
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 59
+Return Value:3.3
+
+  Start -- frame(1) T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffd90a062d8 value:1.1
+  param: double address:0x7ffd90a062d0 value:3.3
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 59
+Return Value:3.3
+
+  Start -- frame(1) T GetLarger(T, T, T) [with T = double]
+  param: double address:0x7ffd90a063b8 value:2.2
+  param: double address:0x7ffd90a063b0 value:3.3
+  param: double address:0x7ffd90a063a8 value:1.1
+    Start -- frame(2) T GetLarger(T, T) [with T = double]
+    param: double address:0x7ffd90a062d8 value:3.3
+    param: double address:0x7ffd90a062d0 value:1.1
+    End frame(2)--T GetLarger(T, T) [with T = double] at line 54
+Return Value:3.3
+
+    Start -- frame(2) T GetLarger(T, T) [with T = double]
+    param: double address:0x7ffd90a062d8 value:2.2
+    param: double address:0x7ffd90a062d0 value:3.3
+    End frame(2)--T GetLarger(T, T) [with T = double] at line 59
+Return Value:3.3
+
+  End frame(1)--T GetLarger(T, T, T) [with T = double] at line 90
+Return Value:3.3
+
+  Start -- frame(1) T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffd90a062d8 value:3.3
+  param: double address:0x7ffd90a062d0 value:1.1
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 54
+Return Value:3.3
+
+  Start -- frame(1) T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffd90a062d8 value:2.2
+  param: double address:0x7ffd90a062d0 value:3.3
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 59
+Return Value:3.3
+
+  Start -- frame(1) T GetLarger(T, T, T) [with T = double]
+  param: double address:0x7ffd90a063b8 value:3.3
+  param: double address:0x7ffd90a063b0 value:2.2
+  param: double address:0x7ffd90a063a8 value:1.1
+    Start -- frame(2) T GetLarger(T, T) [with T = double]
+    param: double address:0x7ffd90a062d8 value:2.2
+    param: double address:0x7ffd90a062d0 value:1.1
+    End frame(2)--T GetLarger(T, T) [with T = double] at line 54
+Return Value:2.2
+
+    Start -- frame(2) T GetLarger(T, T) [with T = double]
+    param: double address:0x7ffd90a062d8 value:3.3
+    param: double address:0x7ffd90a062d0 value:2.2
+    End frame(2)--T GetLarger(T, T) [with T = double] at line 54
+Return Value:3.3
+
+  End frame(1)--T GetLarger(T, T, T) [with T = double] at line 90
+Return Value:3.3
+
+  Start -- frame(1) T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffd90a062d8 value:2.2
+  param: double address:0x7ffd90a062d0 value:1.1
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 54
+Return Value:2.2
+
+  Start -- frame(1) T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffd90a062d8 value:3.3
+  param: double address:0x7ffd90a062d0 value:2.2
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 54
+Return Value:3.3
+
+  Start -- frame(1) T GetSmaller(T, T, T) [with T = double]
+  param: double address:0x7ffd90a063b8 value:1.1
+  param: double address:0x7ffd90a063b0 value:2.2
+  param: double address:0x7ffd90a063a8 value:3.3
+    Start -- frame(2) T GetSmaller(T, T) [with T = double]
+    param: double address:0x7ffd90a062d8 value:2.2
+    param: double address:0x7ffd90a062d0 value:3.3
+    End frame(2)--T GetSmaller(T, T) [with T = double] at line 71
+Return Value:2.2
+
+    Start -- frame(2) T GetSmaller(T, T) [with T = double]
+    param: double address:0x7ffd90a062d8 value:1.1
+    param: double address:0x7ffd90a062d0 value:2.2
+    End frame(2)--T GetSmaller(T, T) [with T = double] at line 71
+Return Value:1.1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = double] at line 103
+Return Value:1.1
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffd90a062d8 value:2.2
+  param: double address:0x7ffd90a062d0 value:3.3
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 71
+Return Value:2.2
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffd90a062d8 value:1.1
+  param: double address:0x7ffd90a062d0 value:2.2
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 71
+Return Value:1.1
+
+  Start -- frame(1) T GetSmaller(T, T, T) [with T = double]
+  param: double address:0x7ffd90a063b8 value:2.2
+  param: double address:0x7ffd90a063b0 value:3.3
+  param: double address:0x7ffd90a063a8 value:1.1
+    Start -- frame(2) T GetSmaller(T, T) [with T = double]
+    param: double address:0x7ffd90a062d8 value:3.3
+    param: double address:0x7ffd90a062d0 value:1.1
+    End frame(2)--T GetSmaller(T, T) [with T = double] at line 76
+Return Value:1.1
+
+    Start -- frame(2) T GetSmaller(T, T) [with T = double]
+    param: double address:0x7ffd90a062d8 value:2.2
+    param: double address:0x7ffd90a062d0 value:1.1
+    End frame(2)--T GetSmaller(T, T) [with T = double] at line 76
+Return Value:1.1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = double] at line 103
+Return Value:1.1
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffd90a062d8 value:3.3
+  param: double address:0x7ffd90a062d0 value:1.1
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 76
+Return Value:1.1
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffd90a062d8 value:2.2
+  param: double address:0x7ffd90a062d0 value:1.1
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 76
+Return Value:1.1
+
+  Start -- frame(1) T GetSmaller(T, T, T) [with T = double]
+  param: double address:0x7ffd90a063b8 value:3.3
+  param: double address:0x7ffd90a063b0 value:2.2
+  param: double address:0x7ffd90a063a8 value:1.1
+    Start -- frame(2) T GetSmaller(T, T) [with T = double]
+    param: double address:0x7ffd90a062d8 value:2.2
+    param: double address:0x7ffd90a062d0 value:1.1
+    End frame(2)--T GetSmaller(T, T) [with T = double] at line 76
+Return Value:1.1
+
+    Start -- frame(2) T GetSmaller(T, T) [with T = double]
+    param: double address:0x7ffd90a062d8 value:3.3
+    param: double address:0x7ffd90a062d0 value:1.1
+    End frame(2)--T GetSmaller(T, T) [with T = double] at line 76
+Return Value:1.1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = double] at line 103
+Return Value:1.1
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffd90a062d8 value:2.2
+  param: double address:0x7ffd90a062d0 value:1.1
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 76
+Return Value:1.1
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffd90a062d8 value:3.3
+  param: double address:0x7ffd90a062d0 value:1.1
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 76
+Return Value:1.1
+
+int main() at line 44  :
+
+
+Testing with type char  Start -- frame(1) T GetSmaller(T, T, T) [with T = char]
+  param: char address:0x7ffd90a063bc value:a
+  param: char address:0x7ffd90a063b8 value:b
+  param: char address:0x7ffd90a063b4 value:c
+    Start -- frame(2) T GetSmaller(T, T) [with T = char]
+    param: char address:0x7ffd90a062ec value:b
+    param: char address:0x7ffd90a062e8 value:c
+    End frame(2)--T GetSmaller(T, T) [with T = char] at line 71
+Return Value:b
+
+    Start -- frame(2) T GetSmaller(T, T) [with T = char]
+    param: char address:0x7ffd90a062ec value:a
+    param: char address:0x7ffd90a062e8 value:b
+    End frame(2)--T GetSmaller(T, T) [with T = char] at line 71
+Return Value:a
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = char] at line 103
+Return Value:a
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffd90a062ec value:b
+  param: char address:0x7ffd90a062e8 value:c
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 71
+Return Value:b
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffd90a062ec value:a
+  param: char address:0x7ffd90a062e8 value:b
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 71
+Return Value:a
+
+  Start -- frame(1) T GetSmaller(T, T, T) [with T = char]
+  param: char address:0x7ffd90a063bc value:b
+  param: char address:0x7ffd90a063b8 value:c
+  param: char address:0x7ffd90a063b4 value:a
+    Start -- frame(2) T GetSmaller(T, T) [with T = char]
+    param: char address:0x7ffd90a062ec value:c
+    param: char address:0x7ffd90a062e8 value:a
+    End frame(2)--T GetSmaller(T, T) [with T = char] at line 76
+Return Value:a
+
+    Start -- frame(2) T GetSmaller(T, T) [with T = char]
+    param: char address:0x7ffd90a062ec value:b
+    param: char address:0x7ffd90a062e8 value:a
+    End frame(2)--T GetSmaller(T, T) [with T = char] at line 76
+Return Value:a
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = char] at line 103
+Return Value:a
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffd90a062ec value:c
+  param: char address:0x7ffd90a062e8 value:a
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 76
+Return Value:a
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffd90a062ec value:b
+  param: char address:0x7ffd90a062e8 value:a
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 76
+Return Value:a
+
+  Start -- frame(1) T GetSmaller(T, T, T) [with T = char]
+  param: char address:0x7ffd90a063bc value:c
+  param: char address:0x7ffd90a063b8 value:a
+  param: char address:0x7ffd90a063b4 value:b
+    Start -- frame(2) T GetSmaller(T, T) [with T = char]
+    param: char address:0x7ffd90a062ec value:a
+    param: char address:0x7ffd90a062e8 value:b
+    End frame(2)--T GetSmaller(T, T) [with T = char] at line 71
+Return Value:a
+
+    Start -- frame(2) T GetSmaller(T, T) [with T = char]
+    param: char address:0x7ffd90a062ec value:c
+    param: char address:0x7ffd90a062e8 value:a
+    End frame(2)--T GetSmaller(T, T) [with T = char] at line 76
+Return Value:a
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = char] at line 103
+Return Value:a
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffd90a062ec value:a
+  param: char address:0x7ffd90a062e8 value:b
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 71
+Return Value:a
+
+  Start -- frame(1) T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffd90a062ec value:c
+  param: char address:0x7ffd90a062e8 value:a
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 76
+Return Value:a
+
+int main() at line 52  :
+
+
+Testing with type char *  Start -- frame(1) const char* GetLarger(const char*, const char*)
+  param: char*  address:0x411986 points_to_value:monkey
+  param: char*  address:0x411980 points_to_value:zebra
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 14
+Return Value:€
+
+  Start -- frame(1) const char* GetLarger(const char*, const char*)
+  param: char*  address:0x411980 points_to_value:zebra
+  param: char*  address:0x411986 points_to_value:monkey
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 20
+Return Value:€
+
+  Start -- frame(1) const char* GetSmaller(const char*, const char*)
+  param: char*  address:0x411986 points_to_value:monkey
+  param: char*  address:0x411980 points_to_value:zebra
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 38
+Return Value:†
+
+  Start -- frame(1) const char* GetSmaller(const char*, const char*)
+  param: char*  address:0x411980 points_to_value:zebra
+  param: char*  address:0x411986 points_to_value:monkey
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 32
+Return Value:†
+
+  Start -- frame(1) T GetLarger(T, T, T) [with T = const char*]
+  param: char*  address:0x411a31 points_to_value:capybara
+  param: char*  address:0x411986 points_to_value:monkey
+  param: char*  address:0x411980 points_to_value:zebra
+    Start -- frame(2) const char* GetLarger(const char*, const char*)
+    param: char*  address:0x411986 points_to_value:monkey
+    param: char*  address:0x411980 points_to_value:zebra
+    End frame(2)--const char* GetLarger(const char*, const char*) at line 14
+Return Value:€
+
+    Start -- frame(2) const char* GetLarger(const char*, const char*)
+    param: char*  address:0x411a31 points_to_value:capybara
+    param: char*  address:0x411980 points_to_value:zebra
+    End frame(2)--const char* GetLarger(const char*, const char*) at line 14
+Return Value:€
+
+  End frame(1)--T GetLarger(T, T, T) [with T = const char*] at line 90
+Return Value:€
+
+  Start -- frame(1) const char* GetLarger(const char*, const char*)
+  param: char*  address:0x411986 points_to_value:monkey
+  param: char*  address:0x411980 points_to_value:zebra
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 14
+Return Value:€
+
+  Start -- frame(1) const char* GetLarger(const char*, const char*)
+  param: char*  address:0x411a31 points_to_value:capybara
+  param: char*  address:0x411980 points_to_value:zebra
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 14
+Return Value:€
+
+  Start -- frame(1) T GetLarger(T, T, T) [with T = const char*]
+  param: char*  address:0x411986 points_to_value:monkey
+  param: char*  address:0x411980 points_to_value:zebra
+  param: char*  address:0x411a31 points_to_value:capybara
+    Start -- frame(2) const char* GetLarger(const char*, const char*)
+    param: char*  address:0x411980 points_to_value:zebra
+    param: char*  address:0x411a31 points_to_value:capybara
+    End frame(2)--const char* GetLarger(const char*, const char*) at line 20
+Return Value:€
+
+    Start -- frame(2) const char* GetLarger(const char*, const char*)
+    param: char*  address:0x411986 points_to_value:monkey
+    param: char*  address:0x411980 points_to_value:zebra
+    End frame(2)--const char* GetLarger(const char*, const char*) at line 14
+Return Value:€
+
+  End frame(1)--T GetLarger(T, T, T) [with T = const char*] at line 90
+Return Value:€
+
+  Start -- frame(1) const char* GetLarger(const char*, const char*)
+  param: char*  address:0x411980 points_to_value:zebra
+  param: char*  address:0x411a31 points_to_value:capybara
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 20
+Return Value:€
+
+  Start -- frame(1) const char* GetLarger(const char*, const char*)
+  param: char*  address:0x411986 points_to_value:monkey
+  param: char*  address:0x411980 points_to_value:zebra
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 14
+Return Value:€
+
+  Start -- frame(1) T GetLarger(T, T, T) [with T = const char*]
+  param: char*  address:0x411980 points_to_value:zebra
+  param: char*  address:0x411986 points_to_value:monkey
+  param: char*  address:0x411a31 points_to_value:capybara
+    Start -- frame(2) const char* GetLarger(const char*, const char*)
+    param: char*  address:0x411986 points_to_value:monkey
+    param: char*  address:0x411a31 points_to_value:capybara
+    End frame(2)--const char* GetLarger(const char*, const char*) at line 20
+Return Value:†
+
+    Start -- frame(2) const char* GetLarger(const char*, const char*)
+    param: char*  address:0x411980 points_to_value:zebra
+    param: char*  address:0x411986 points_to_value:monkey
+    End frame(2)--const char* GetLarger(const char*, const char*) at line 20
+Return Value:€
+
+  End frame(1)--T GetLarger(T, T, T) [with T = const char*] at line 90
+Return Value:€
+
+  Start -- frame(1) const char* GetLarger(const char*, const char*)
+  param: char*  address:0x411986 points_to_value:monkey
+  param: char*  address:0x411a31 points_to_value:capybara
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 20
+Return Value:†
+
+  Start -- frame(1) const char* GetLarger(const char*, const char*)
+  param: char*  address:0x411980 points_to_value:zebra
+  param: char*  address:0x411986 points_to_value:monkey
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 20
+Return Value:€
+
+  Start -- frame(1) T GetSmaller(T, T, T) [with T = const char*]
+  param: char*  address:0x411a31 points_to_value:capybara
+  param: char*  address:0x411986 points_to_value:monkey
+  param: char*  address:0x411980 points_to_value:zebra
+    Start -- frame(2) const char* GetSmaller(const char*, const char*)
+    param: char*  address:0x411986 points_to_value:monkey
+    param: char*  address:0x411980 points_to_value:zebra
+    End frame(2)--const char* GetSmaller(const char*, const char*) at line 38
+Return Value:†
+
+    Start -- frame(2) const char* GetSmaller(const char*, const char*)
+    param: char*  address:0x411a31 points_to_value:capybara
+    param: char*  address:0x411986 points_to_value:monkey
+    End frame(2)--const char* GetSmaller(const char*, const char*) at line 38
+Return Value:1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = const char*] at line 103
+Return Value:1
+
+  Start -- frame(1) const char* GetSmaller(const char*, const char*)
+  param: char*  address:0x411986 points_to_value:monkey
+  param: char*  address:0x411980 points_to_value:zebra
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 38
+Return Value:†
+
+  Start -- frame(1) const char* GetSmaller(const char*, const char*)
+  param: char*  address:0x411a31 points_to_value:capybara
+  param: char*  address:0x411986 points_to_value:monkey
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 38
+Return Value:1
+
+  Start -- frame(1) T GetSmaller(T, T, T) [with T = const char*]
+  param: char*  address:0x411986 points_to_value:monkey
+  param: char*  address:0x411980 points_to_value:zebra
+  param: char*  address:0x411a31 points_to_value:capybara
+    Start -- frame(2) const char* GetSmaller(const char*, const char*)
+    param: char*  address:0x411980 points_to_value:zebra
+    param: char*  address:0x411a31 points_to_value:capybara
+    End frame(2)--const char* GetSmaller(const char*, const char*) at line 32
+Return Value:1
+
+    Start -- frame(2) const char* GetSmaller(const char*, const char*)
+    param: char*  address:0x411986 points_to_value:monkey
+    param: char*  address:0x411a31 points_to_value:capybara
+    End frame(2)--const char* GetSmaller(const char*, const char*) at line 32
+Return Value:1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = const char*] at line 103
+Return Value:1
+
+  Start -- frame(1) const char* GetSmaller(const char*, const char*)
+  param: char*  address:0x411980 points_to_value:zebra
+  param: char*  address:0x411a31 points_to_value:capybara
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 32
+Return Value:1
+
+  Start -- frame(1) const char* GetSmaller(const char*, const char*)
+  param: char*  address:0x411986 points_to_value:monkey
+  param: char*  address:0x411a31 points_to_value:capybara
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 32
+Return Value:1
+
+  Start -- frame(1) T GetSmaller(T, T, T) [with T = const char*]
+  param: char*  address:0x411980 points_to_value:zebra
+  param: char*  address:0x411986 points_to_value:monkey
+  param: char*  address:0x411a31 points_to_value:capybara
+    Start -- frame(2) const char* GetSmaller(const char*, const char*)
+    param: char*  address:0x411986 points_to_value:monkey
+    param: char*  address:0x411a31 points_to_value:capybara
+    End frame(2)--const char* GetSmaller(const char*, const char*) at line 32
+Return Value:1
+
+    Start -- frame(2) const char* GetSmaller(const char*, const char*)
+    param: char*  address:0x411980 points_to_value:zebra
+    param: char*  address:0x411a31 points_to_value:capybara
+    End frame(2)--const char* GetSmaller(const char*, const char*) at line 32
+Return Value:1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = const char*] at line 103
+Return Value:1
+
+  Start -- frame(1) const char* GetSmaller(const char*, const char*)
+  param: char*  address:0x411986 points_to_value:monkey
+  param: char*  address:0x411a31 points_to_value:capybara
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 32
+Return Value:1
+
+  Start -- frame(1) const char* GetSmaller(const char*, const char*)
+  param: char*  address:0x411980 points_to_value:zebra
+  param: char*  address:0x411a31 points_to_value:capybara
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 32
+Return Value:1
+
+int main() at line 71  :
+
+
+Test the array functions  Start -- frame(1) void PrintArray(T*, int) [with T = int]
+  param: int*  address:0x7ffd90a06490 points_to_value:1
+  param: int address:0x7ffd90a06314 value:9
+  End -- frame(1) void PrintArray(T*, int) [with T = int]
+
+
+  Start -- frame(1) void SortArrayDecending(T*, int) [with T = int]
+  param: int*  address:0x7ffd90a06490 points_to_value:1
+  param: int address:0x7ffd90a06304 value:9
+  End -- frame(1) void SortArrayDecending(T*, int) [with T = int]
+
+
+  Start -- frame(1) void PrintArray(T*, int) [with T = int]
+  param: int*  address:0x7ffd90a06490 points_to_value:99
+  param: int address:0x7ffd90a06314 value:9
+  End -- frame(1) void PrintArray(T*, int) [with T = int]
+
+
+  Start -- frame(1) void SortArrayAccending(T*, int) [with T = int]
+  param: int*  address:0x7ffd90a06490 points_to_value:99
+  param: int address:0x7ffd90a06304 value:9
+  End -- frame(1) void SortArrayAccending(T*, int) [with T = int]
+
+
+  Start -- frame(1) void PrintArray(T*, int) [with T = int]
+  param: int*  address:0x7ffd90a06490 points_to_value:1
+  param: int address:0x7ffd90a06314 value:9
+  End -- frame(1) void PrintArray(T*, int) [with T = int]
+
+
+int main() at line 100  :create an char array  Start -- frame(1) void PrintArray(T*, int) [with T = char]
+  param: char*  address:0x7ffd90a06500 points_to_value:agczbnwj
+  param: int address:0x7ffd90a06314 value:8
+  End -- frame(1) void PrintArray(T*, int) [with T = char]
+
+
+  Start -- frame(1) void SortArrayDecending(T*, int) [with T = char]
+  param: char*  address:0x7ffd90a06500 points_to_value:agczbnwj
+  param: int address:0x7ffd90a06304 value:8
+  End -- frame(1) void SortArrayDecending(T*, int) [with T = char]
+
+
+  Start -- frame(1) void PrintArray(T*, int) [with T = char]
+  param: char*  address:0x7ffd90a06500 points_to_value:zwnjgcba
+  param: int address:0x7ffd90a06314 value:8
+  End -- frame(1) void PrintArray(T*, int) [with T = char]
+
+
+  Start -- frame(1) void SortArrayAccending(T*, int) [with T = char]
+  param: char*  address:0x7ffd90a06500 points_to_value:zwnjgcba
+  param: int address:0x7ffd90a06304 value:8
+  End -- frame(1) void SortArrayAccending(T*, int) [with T = char]
+
+
+  Start -- frame(1) void PrintArray(T*, int) [with T = char]
+  param: char*  address:0x7ffd90a06500 points_to_value:abcgjnwz
+  param: int address:0x7ffd90a06314 value:8
+  End -- frame(1) void PrintArray(T*, int) [with T = char]
+
+
+int main() at line 122  :
+
+
+create an string array  Start -- frame(1) void PrintArray(T*, int) [with T = std::basic_string<char>]
+  param: std::string*  address:0x7ffd90a064c0 points_to_value:Bert
+  param: int address:0x7ffd90a06314 value:8
+  End -- frame(1) void PrintArray(T*, int) [with T = std::basic_string<char>]
+
+
+  Start -- frame(1) void SortArrayDecending(T*, int) [with T = std::basic_string<char>]
+  param: std::string*  address:0x7ffd90a064c0 points_to_value:Bert
+  param: int address:0x7ffd90a06304 value:8
+  End -- frame(1) void SortArrayDecending(T*, int) [with T = std::basic_string<char>]
+
+
+  Start -- frame(1) void PrintArray(T*, int) [with T = std::basic_string<char>]
+  param: std::string*  address:0x7ffd90a064c0 points_to_value:Snufflaupagus
+  param: int address:0x7ffd90a06314 value:8
+  End -- frame(1) void PrintArray(T*, int) [with T = std::basic_string<char>]
+
+
+  Start -- frame(1) void SortArrayAccending(T*, int) [with T = std::basic_string<char>]
+  param: std::string*  address:0x7ffd90a064c0 points_to_value:Snufflaupagus
+  param: int address:0x7ffd90a06304 value:8
+  End -- frame(1) void SortArrayAccending(T*, int) [with T = std::basic_string<char>]
+
+
+  Start -- frame(1) void PrintArray(T*, int) [with T = std::basic_string<char>]
+  param: std::string*  address:0x7ffd90a064c0 points_to_value:Bert
+  param: int address:0x7ffd90a06314 value:8
+  End -- frame(1) void PrintArray(T*, int) [with T = std::basic_string<char>]
+
+

@@ -1,0 +1,10 @@
+'make clean' --- removes the compiled versions of functions so you can build a fresh version  ( if you are expering problems try this)
+
+'make'  --- compiles main.cpp into a file runme
+
+
+'make test' -- compiles a version of your code with the pre compiled version of the example.. this should compile and the output should be nearly identical to the example 
+
+
+
+ 

@@ -1,0 +1,194 @@
+log file "main1.log" opened
+int main() at line 17  :testing the Square class 
+  Start -- frame(1) Square::Square()
+  End -- frame(1) Square::Square()
+
+
+  Start -- frame(1) std::string Square::ToString()
+    Start -- frame(2) double Square::Area()
+    End frame(2)--double Square::Area() at line 37
+Return Value:0
+
+  End frame(1)--std::string Square::ToString() at line 47
+Return Value:Square: length=0 area= 0
+
+
+  Start -- frame(1) void Square::SetLength(double)
+  param: double address:0x7ffcbd8efbd0 value:-3
+  End -- frame(1) void Square::SetLength(double)
+
+
+  Start -- frame(1) std::string Square::ToString()
+    Start -- frame(2) double Square::Area()
+    End frame(2)--double Square::Area() at line 37
+Return Value:0
+
+  End frame(1)--std::string Square::ToString() at line 47
+Return Value:Square: length=0 area= 0
+
+
+  Start -- frame(1) void Square::SetLength(double)
+  param: double address:0x7ffcbd8efbd0 value:3.5
+  End -- frame(1) void Square::SetLength(double)
+
+
+  Start -- frame(1) std::string Square::ToString()
+    Start -- frame(2) double Square::Area()
+    End frame(2)--double Square::Area() at line 37
+Return Value:12.25
+
+  End frame(1)--std::string Square::ToString() at line 47
+Return Value:Square: length=3.5 area= 12.25
+
+
+  Start -- frame(1) Square::Square(double)
+  param: double address:0x7ffcbd8efbd0 value:44
+    Start -- frame(2) void Square::SetLength(double)
+    param: double address:0x7ffcbd8efa50 value:44
+    End -- frame(2) void Square::SetLength(double)
+  End -- frame(1) Square::Square(double)
+
+
+  Start -- frame(1) std::string Square::ToString()
+    Start -- frame(2) double Square::Area()
+    End frame(2)--double Square::Area() at line 37
+Return Value:1936
+
+  End frame(1)--std::string Square::ToString() at line 47
+Return Value:Square: length=44 area= 1936
+
+
+  Start -- frame(1) Square::~Square()
+  End -- frame(1) Square::~Square()
+
+
+  Start -- frame(1) Square::~Square()
+  End -- frame(1) Square::~Square()
+
+
+int main() at line 39  :finished testing the Square class 
+
+
+
+int main() at line 41  :testing the Rectangle class 
+  Start -- frame(1) Square::Square()
+  End -- frame(1) Square::Square()
+
+
+  Start -- frame(1) Rectangle::Rectangle()
+    Start -- frame(2) void Rectangle::SetWidth(double)
+    param: double address:0x7ffcbd8efa60 value:0
+    End -- frame(2) void Rectangle::SetWidth(double)
+  End -- frame(1) Rectangle::Rectangle()
+
+
+  Start -- frame(1) std::string Rectangle::ToString()
+    Start -- frame(2) double Rectangle::Area()
+    End frame(2)--double Rectangle::Area() at line 38
+Return Value:0
+
+  End frame(1)--std::string Rectangle::ToString() at line 48
+Return Value:Rectangle: len=0 width=0 area=0
+
+
+  Start -- frame(1) void Square::SetLength(double)
+  param: double address:0x7ffcbd8efbd0 value:-3
+  End -- frame(1) void Square::SetLength(double)
+
+
+  Start -- frame(1) std::string Rectangle::ToString()
+    Start -- frame(2) double Rectangle::Area()
+    End frame(2)--double Rectangle::Area() at line 38
+Return Value:0
+
+  End frame(1)--std::string Rectangle::ToString() at line 48
+Return Value:Rectangle: len=0 width=0 area=0
+
+
+  Start -- frame(1) void Square::SetLength(double)
+  param: double address:0x7ffcbd8efbd0 value:3.5
+  End -- frame(1) void Square::SetLength(double)
+
+
+  Start -- frame(1) std::string Rectangle::ToString()
+    Start -- frame(2) double Rectangle::Area()
+    End frame(2)--double Rectangle::Area() at line 38
+Return Value:0
+
+  End frame(1)--std::string Rectangle::ToString() at line 48
+Return Value:Rectangle: len=3.5 width=0 area=0
+
+
+  Start -- frame(1) void Rectangle::SetWidth(double)
+  param: double address:0x7ffcbd8efbd0 value:-9
+  End -- frame(1) void Rectangle::SetWidth(double)
+
+
+  Start -- frame(1) std::string Rectangle::ToString()
+    Start -- frame(2) double Rectangle::Area()
+    End frame(2)--double Rectangle::Area() at line 38
+Return Value:0
+
+  End frame(1)--std::string Rectangle::ToString() at line 48
+Return Value:Rectangle: len=3.5 width=0 area=0
+
+
+  Start -- frame(1) void Rectangle::SetWidth(double)
+  param: double address:0x7ffcbd8efbd0 value:9.5
+  End -- frame(1) void Rectangle::SetWidth(double)
+
+
+  Start -- frame(1) std::string Rectangle::ToString()
+    Start -- frame(2) double Rectangle::Area()
+    End frame(2)--double Rectangle::Area() at line 38
+Return Value:33.25
+
+  End frame(1)--std::string Rectangle::ToString() at line 48
+Return Value:Rectangle: len=3.5 width=9.5 area=33.25
+
+
+  Start -- frame(1) Square::Square()
+  End -- frame(1) Square::Square()
+
+
+  Start -- frame(1) Rectangle::Rectangle(double, double)
+  param: double address:0x7ffcbd8efbd0 value:3
+  param: double address:0x7ffcbd8efbc8 value:9
+    Start -- frame(2) void Rectangle::SetWidth(double)
+    param: double address:0x7ffcbd8efa50 value:9
+    End -- frame(2) void Rectangle::SetWidth(double)
+    Start -- frame(2) void Square::SetLength(double)
+    param: double address:0x7ffcbd8efa50 value:3
+    End -- frame(2) void Square::SetLength(double)
+  End -- frame(1) Rectangle::Rectangle(double, double)
+
+
+  Start -- frame(1) std::string Rectangle::ToString()
+    Start -- frame(2) double Rectangle::Area()
+    End frame(2)--double Rectangle::Area() at line 38
+Return Value:27
+
+  End frame(1)--std::string Rectangle::ToString() at line 48
+Return Value:Rectangle: len=3 width=9 area=27
+
+
+  Start -- frame(1) Rectangle::~Rectangle()
+  End -- frame(1) Rectangle::~Rectangle()
+
+
+  Start -- frame(1) Square::~Square()
+  End -- frame(1) Square::~Square()
+
+
+  Start -- frame(1) Rectangle::~Rectangle()
+  End -- frame(1) Rectangle::~Rectangle()
+
+
+  Start -- frame(1) Square::~Square()
+  End -- frame(1) Square::~Square()
+
+
+int main() at line 73  :finished testing the Rectangle class 
+
+
+

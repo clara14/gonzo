@@ -1,0 +1,285 @@
+log file "main.log" opened
+int main() at line 25  :
+
+
+testing Animal  Start -- frame(1) Animal::Animal(std::string, std::string, std::string)
+  param: std::string address:0x7ffdf2c4e910 value:Felis
+  param: std::string address:0x7ffdf2c4e900 value:Concolor
+  param: std::string address:0x7ffdf2c4e8f0 value:Mountain Lion
+  End -- frame(1) Animal::Animal(std::string, std::string, std::string)
+  param: std::string address:0x7ffdf2c4e910 value:Felis
+  param: std::string address:0x7ffdf2c4e900 value:Concolor
+  param: std::string address:0x7ffdf2c4e8f0 value:Mountain Lion
+
+
+  Start -- frame(1) std::string Animal::GetFormattedName()
+  End frame(1)--std::string Animal::GetFormattedName() at line 36
+Return Value:Felis Concolor Common Name:Mountain Lion
+
+  Start -- frame(1) std::string Animal::Move()
+  End frame(1)--std::string Animal::Move() at line 43
+Return Value:unknown type <char [12]>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- frame(1) std::string Animal::MakeNoise()
+  End frame(1)--std::string Animal::MakeNoise() at line 50
+Return Value:unknown type <char [9]>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- frame(1) std::string Animal::GetType()
+  End frame(1)--std::string Animal::GetType() at line 10
+Return Value:Animal
+
+  Start -- frame(1) std::string Animal::ToString()
+    Start -- frame(2) std::string Animal::GetFormattedName()
+    End frame(2)--std::string Animal::GetFormattedName() at line 36
+Return Value:Felis Concolor Common Name:Mountain Lion
+
+  End frame(1)--std::string Animal::ToString() at line 59
+Return Value:Name:Felis Concolor Common Name:Mountain Lion
+
+int main() at line 35  :
+
+
+testing Vertebrata  Start -- frame(1) Animal::Animal(std::string, std::string, std::string)
+  param: std::string address:0x7ffdf2c4e6a0 value:Felis
+  param: std::string address:0x7ffdf2c4e690 value:Concolor
+  param: std::string address:0x7ffdf2c4e680 value:Mountain Lion
+  End -- frame(1) Animal::Animal(std::string, std::string, std::string)
+  param: std::string address:0x7ffdf2c4e6a0 value:Felis
+  param: std::string address:0x7ffdf2c4e690 value:Concolor
+  param: std::string address:0x7ffdf2c4e680 value:Mountain Lion
+
+
+  Start -- frame(1) Vertebrata::Vertebrata(std::string, std::string, std::string, std::string, bool, bool)
+  param: std::string address:0x7ffdf2c4e9a0 value:Felis
+  param: std::string address:0x7ffdf2c4e990 value:Concolor
+  param: std::string address:0x7ffdf2c4e980 value:Mountain Lion
+  param: std::string address:0x7ffdf2c4e970 value:warm
+  param: bool address:0x7ffdf2c4e654 value:false
+  param: bool address:0x7ffdf2c4e650 value:true
+  End -- frame(1) Vertebrata::Vertebrata(std::string, std::string, std::string, std::string, bool, bool)
+  param: std::string address:0x7ffdf2c4e9a0 value:Felis
+  param: std::string address:0x7ffdf2c4e990 value:Concolor
+  param: std::string address:0x7ffdf2c4e980 value:Mountain Lion
+  param: std::string address:0x7ffdf2c4e970 value:warm
+  param: bool address:0x7ffdf2c4e654 value:false
+  param: bool address:0x7ffdf2c4e650 value:true
+
+
+  Start -- frame(1) std::string Animal::GetFormattedName()
+  End frame(1)--std::string Animal::GetFormattedName() at line 36
+Return Value:Felis Concolor Common Name:Mountain Lion
+
+  Start -- frame(1) std::string Animal::Move()
+  End frame(1)--std::string Animal::Move() at line 43
+Return Value:unknown type <char [12]>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- frame(1) std::string Animal::MakeNoise()
+  End frame(1)--std::string Animal::MakeNoise() at line 50
+Return Value:unknown type <char [9]>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- frame(1) std::string Animal::GetType()
+  End frame(1)--std::string Animal::GetType() at line 10
+Return Value:Vertebrata
+
+  Start -- frame(1) std::string Vertebrata::ToString()
+    Start -- frame(2) std::string Animal::ToString()
+      Start -- frame(3) std::string Animal::GetFormattedName()
+      End frame(3)--std::string Animal::GetFormattedName() at line 36
+Return Value:Felis Concolor Common Name:Mountain Lion
+
+    End frame(2)--std::string Animal::ToString() at line 59
+Return Value:Name:Felis Concolor Common Name:Mountain Lion
+
+  End frame(1)--std::string Vertebrata::ToString() at line 29
+Return Value:Name:Felis Concolor Common Name:Mountain Lion
+blood: warm
+egg-layer: false
+live_birth: true
+
+
+int main() at line 48  :
+
+
+testing Mammalia  Start -- frame(1) Animal::Animal(std::string, std::string, std::string)
+  param: std::string address:0x7ffdf2c4e4d0 value:Felis
+  param: std::string address:0x7ffdf2c4e4c0 value:Concolor
+  param: std::string address:0x7ffdf2c4e4b0 value:Mountain Lion
+  End -- frame(1) Animal::Animal(std::string, std::string, std::string)
+  param: std::string address:0x7ffdf2c4e4d0 value:Felis
+  param: std::string address:0x7ffdf2c4e4c0 value:Concolor
+  param: std::string address:0x7ffdf2c4e4b0 value:Mountain Lion
+
+
+  Start -- frame(1) Vertebrata::Vertebrata(std::string, std::string, std::string, std::string, bool, bool)
+  param: std::string address:0x7ffdf2c4e6b0 value:Felis
+  param: std::string address:0x7ffdf2c4e6a0 value:Concolor
+  param: std::string address:0x7ffdf2c4e690 value:Mountain Lion
+  param: std::string address:0x7ffdf2c4e680 value:cold
+  param: bool address:0x7ffdf2c4e484 value:false
+  param: bool address:0x7ffdf2c4e480 value:true
+  End -- frame(1) Vertebrata::Vertebrata(std::string, std::string, std::string, std::string, bool, bool)
+  param: std::string address:0x7ffdf2c4e6b0 value:Felis
+  param: std::string address:0x7ffdf2c4e6a0 value:Concolor
+  param: std::string address:0x7ffdf2c4e690 value:Mountain Lion
+  param: std::string address:0x7ffdf2c4e680 value:cold
+  param: bool address:0x7ffdf2c4e484 value:false
+  param: bool address:0x7ffdf2c4e480 value:true
+
+
+  Start -- frame(1) Mammalia::Mammalia(std::string, std::string, std::string, std::string, std::string)
+  param: std::string address:0x7ffdf2c4ea40 value:Felis
+  param: std::string address:0x7ffdf2c4ea30 value:Concolor
+  param: std::string address:0x7ffdf2c4ea20 value:Mountain Lion
+  param: std::string address:0x7ffdf2c4ea10 value:run,walk,pounce
+  param: std::string address:0x7ffdf2c4ea00 value:purr,snarl,growl
+  End -- frame(1) Mammalia::Mammalia(std::string, std::string, std::string, std::string, std::string)
+  param: std::string address:0x7ffdf2c4ea40 value:Felis
+  param: std::string address:0x7ffdf2c4ea30 value:Concolor
+  param: std::string address:0x7ffdf2c4ea20 value:Mountain Lion
+  param: std::string address:0x7ffdf2c4ea10 value:run,walk,pounce
+  param: std::string address:0x7ffdf2c4ea00 value:purr,snarl,growl
+
+
+  Start -- frame(1) std::string Animal::GetFormattedName()
+  End frame(1)--std::string Animal::GetFormattedName() at line 36
+Return Value:Felis Concolor Common Name:Mountain Lion
+
+  Start -- frame(1) std::string Mammalia::Move()
+  End frame(1)--std::string Mammalia::Move() at line 32
+Return Value:run,walk,pounce
+
+  Start -- frame(1) std::string Mammalia::MakeNoise()
+  End frame(1)--std::string Mammalia::MakeNoise() at line 39
+Return Value:purr,snarl,growl
+
+  Start -- frame(1) std::string Animal::GetType()
+  End frame(1)--std::string Animal::GetType() at line 10
+Return Value:Mammalia
+
+  Start -- frame(1) std::string Mammalia::ToString()
+    Start -- frame(2) std::string Vertebrata::ToString()
+      Start -- frame(3) std::string Animal::ToString()
+        Start -- frame(4) std::string Animal::GetFormattedName()
+        End frame(4)--std::string Animal::GetFormattedName() at line 36
+Return Value:Felis Concolor Common Name:Mountain Lion
+
+      End frame(3)--std::string Animal::ToString() at line 59
+Return Value:Name:Felis Concolor Common Name:Mountain Lion
+
+    End frame(2)--std::string Vertebrata::ToString() at line 29
+Return Value:Name:Felis Concolor Common Name:Mountain Lion
+blood: warm
+egg-layer: false
+live_birth: true
+
+
+  End frame(1)--std::string Mammalia::ToString() at line 52
+Return Value:Name:Felis Concolor Common Name:Mountain Lion
+blood: warm
+egg-layer: false
+live_birth: true
+movement:run,walk,pounce
+noise:purr,snarl,growl
+
+
+int main() at line 61  :
+
+
+testing Reptilia  Start -- frame(1) Animal::Animal(std::string, std::string, std::string)
+  param: std::string address:0x7ffdf2c4e4b0 value:Colubridae
+  param: std::string address:0x7ffdf2c4e4a0 value:Thamnophis
+  param: std::string address:0x7ffdf2c4e490 value:Garter Snake
+  End -- frame(1) Animal::Animal(std::string, std::string, std::string)
+  param: std::string address:0x7ffdf2c4e4b0 value:Colubridae
+  param: std::string address:0x7ffdf2c4e4a0 value:Thamnophis
+  param: std::string address:0x7ffdf2c4e490 value:Garter Snake
+
+
+  Start -- frame(1) Vertebrata::Vertebrata(std::string, std::string, std::string, std::string, bool, bool)
+  param: std::string address:0x7ffdf2c4e6a0 value:Colubridae
+  param: std::string address:0x7ffdf2c4e690 value:Thamnophis
+  param: std::string address:0x7ffdf2c4e680 value:Garter Snake
+  param: std::string address:0x7ffdf2c4e670 value:cold
+  param: bool address:0x7ffdf2c4e464 value:false
+  param: bool address:0x7ffdf2c4e460 value:true
+  End -- frame(1) Vertebrata::Vertebrata(std::string, std::string, std::string, std::string, bool, bool)
+  param: std::string address:0x7ffdf2c4e6a0 value:Colubridae
+  param: std::string address:0x7ffdf2c4e690 value:Thamnophis
+  param: std::string address:0x7ffdf2c4e680 value:Garter Snake
+  param: std::string address:0x7ffdf2c4e670 value:cold
+  param: bool address:0x7ffdf2c4e464 value:false
+  param: bool address:0x7ffdf2c4e460 value:true
+
+
+  Start -- frame(1) Reptilia::Reptilia(std::string, std::string, std::string, std::string, std::string, bool, bool)
+  param: std::string address:0x7ffdf2c4eae0 value:Colubridae
+  param: std::string address:0x7ffdf2c4ead0 value:Thamnophis
+  param: std::string address:0x7ffdf2c4eac0 value:Garter Snake
+  param: std::string address:0x7ffdf2c4eab0 value:swims,slithers,climbs
+  param: std::string address:0x7ffdf2c4eaa0 value:can produce a hissing sound when excited
+  param: bool address:0x7ffdf2c4e63c value:false
+  param: bool address:0x7ffdf2c4e638 value:true
+  End -- frame(1) Reptilia::Reptilia(std::string, std::string, std::string, std::string, std::string, bool, bool)
+  param: std::string address:0x7ffdf2c4eae0 value:Colubridae
+  param: std::string address:0x7ffdf2c4ead0 value:Thamnophis
+  param: std::string address:0x7ffdf2c4eac0 value:Garter Snake
+  param: std::string address:0x7ffdf2c4eab0 value:swims,slithers,climbs
+  param: std::string address:0x7ffdf2c4eaa0 value:can produce a hissing sound when excited
+  param: bool address:0x7ffdf2c4e63c value:false
+  param: bool address:0x7ffdf2c4e638 value:true
+
+
+  Start -- frame(1) std::string Animal::GetFormattedName()
+  End frame(1)--std::string Animal::GetFormattedName() at line 36
+Return Value:Colubridae Thamnophis Common Name:Garter Snake
+
+  Start -- frame(1) std::string Reptilia::Move()
+  End frame(1)--std::string Reptilia::Move() at line 24
+Return Value:swims,slithers,climbs
+
+  Start -- frame(1) std::string Reptilia::MakeNoise()
+  End frame(1)--std::string Reptilia::MakeNoise() at line 31
+Return Value:can produce a hissing sound when excited
+
+  Start -- frame(1) std::string Animal::GetType()
+  End frame(1)--std::string Animal::GetType() at line 10
+Return Value:Reptlia
+
+  Start -- frame(1) std::string Reptilia::ToString()
+    Start -- frame(2) std::string Vertebrata::ToString()
+      Start -- frame(3) std::string Animal::ToString()
+        Start -- frame(4) std::string Animal::GetFormattedName()
+        End frame(4)--std::string Animal::GetFormattedName() at line 36
+Return Value:Colubridae Thamnophis Common Name:Garter Snake
+
+      End frame(3)--std::string Animal::ToString() at line 59
+Return Value:Name:Colubridae Thamnophis Common Name:Garter Snake
+
+    End frame(2)--std::string Vertebrata::ToString() at line 29
+Return Value:Name:Colubridae Thamnophis Common Name:Garter Snake
+blood: cold
+egg-layer: false
+live_birth: true
+
+
+    Start -- frame(2) std::string Reptilia::Move()
+    End frame(2)--std::string Reptilia::Move() at line 24
+Return Value:swims,slithers,climbs
+
+    Start -- frame(2) std::string Reptilia::MakeNoise()
+    End frame(2)--std::string Reptilia::MakeNoise() at line 31
+Return Value:can produce a hissing sound when excited
+
+  End frame(1)--std::string Reptilia::ToString() at line 42
+Return Value:Name:Colubridae Thamnophis Common Name:Garter Snake
+blood: cold
+egg-layer: false
+live_birth: true
+movement: swims,slithers,climbs
+nose: can produce a hissing sound when excited
+
+
